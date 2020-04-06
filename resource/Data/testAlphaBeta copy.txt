@@ -1,0 +1,612 @@
+0 1 0 0 0 1 
+1 0 1 0 0 0 
+0 0 0 0 0 0 
+1 0 1 0 0 0 
+1 0 0 1 0 1 
+0 0 1 0 1 0 
+index=-11 data=-11
+index=-9999 data=-11
+index=-9999 data=-11
+index=-9999 data=-11
+index=-9999 data=-11
+index=-9999 data=-11
+index=-9999 data=-11
+2 0 0 0 0 0 
+0 0 0 0 0 0 
+0 1 1 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+index=-2 data=-2
+index=-2 data=-2
+index=-3 data=-3
+index=-9999 data=-3
+index=-9999 data=-3
+index=-9999 data=-3
+index=-9999 data=-3
+0 2 2 2 0 0 
+2 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 2 2 0 
+1 0 0 0 2 0 
+0 0 0 1 0 0 
+index=4 data=4
+index=5 data=5
+index=4 data=4
+index=5 data=5
+index=5 data=5
+index=6 data=5
+index=9999 data=5
+0 0 2 0 0 1 
+1 1 0 1 1 1 
+0 0 1 0 1 0 
+1 2 0 1 1 0 
+0 0 0 0 0 0 
+2 0 0 0 0 0 
+index=-9 data=-9
+index=-8 data=-8
+index=-9 data=-9
+index=-9 data=-9
+index=-10 data=-10
+index=-9999 data=-10
+index=-9999 data=-10
+2 0 0 2 2 0 
+0 0 0 0 0 0 
+2 0 0 0 2 0 
+0 2 2 2 0 2 
+0 0 0 0 0 2 
+2 0 0 0 2 0 
+index=9999 data=12
+index=9999 data=12
+index=9999 data=12
+index=9999 data=12
+index=9999 data=12
+index=9999 data=12
+index=9999 data=12
+0 0 0 0 0 0 
+0 0 0 0 0 2 
+1 0 0 0 1 0 
+1 0 0 0 0 1 
+1 0 0 1 0 2 
+1 0 0 0 1 0 
+index=-7 data=-7
+index=-6 data=-6
+index=-7 data=-7
+index=-7 data=-7
+index=-8 data=-7
+index=-9999 data=-7
+index=-9999 data=-7
+1 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+1 0 0 0 0 0 
+0 1 0 0 0 1 
+index=-4 data=-4
+index=-9999 data=-4
+index=-9999 data=-4
+index=-9999 data=-4
+index=-9999 data=-4
+index=-9999 data=-4
+index=-9999 data=-4
+0 1 0 2 0 2 
+0 0 0 1 0 2 
+0 0 1 1 0 0 
+0 0 1 0 0 0 
+0 0 1 1 0 0 
+0 0 1 0 0 0 
+index=-6 data=-6
+index=-5 data=-5
+index=-6 data=-6
+index=-6 data=-6
+index=-7 data=-7
+index=-9999 data=-7
+index=-9999 data=-7
+2 0 0 2 0 0 
+0 2 0 0 0 0 
+0 2 0 0 2 0 
+0 0 2 0 2 0 
+0 0 0 2 2 0 
+0 2 0 2 0 0 
+index=9999 data=11
+index=9999 data=11
+index=9999 data=11
+index=9999 data=11
+index=9999 data=11
+index=9999 data=11
+index=9999 data=11
+0 1 1 1 1 0 
+0 0 1 0 1 0 
+0 0 1 0 0 0 
+0 0 0 0 0 0 
+0 1 1 0 0 0 
+1 0 0 0 0 0 
+index=-10 data=-10
+index=-9999 data=-10
+index=-9999 data=-10
+index=-9999 data=-10
+index=-9999 data=-10
+index=-9999 data=-10
+index=-9999 data=-10
+0 0 0 0 0 1 
+1 0 0 0 0 0 
+1 0 1 2 0 0 
+0 0 1 1 0 0 
+0 0 0 1 0 0 
+0 1 0 0 0 0 
+index=-7 data=-7
+index=-6 data=-6
+index=-7 data=-7
+index=-9999 data=-7
+index=-9999 data=-7
+index=-9999 data=-7
+index=-9999 data=-7
+2 1 0 0 0 0 
+0 0 2 0 0 0 
+2 2 2 0 0 0 
+0 2 2 2 0 0 
+0 0 0 0 2 0 
+0 2 0 1 0 0 
+index=7 data=7
+index=8 data=8
+index=7 data=7
+index=8 data=8
+index=9 data=8
+index=10 data=8
+index=9999 data=8
+2 0 0 0 1 0 
+0 1 2 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 1 0 
+0 0 0 1 0 0 
+1 0 0 0 0 0 
+index=-4 data=-4
+index=-4 data=-4
+index=-5 data=-5
+index=-9999 data=-5
+index=-9999 data=-5
+index=-9999 data=-5
+index=-9999 data=-5
+0 0 2 0 1 0 
+0 2 0 0 2 0 
+0 0 0 0 0 0 
+2 0 0 0 0 0 
+0 2 2 1 0 0 
+0 0 0 0 0 2 
+index=4 data=4
+index=5 data=5
+index=4 data=4
+index=5 data=5
+index=5 data=5
+index=6 data=5
+index=9999 data=5
+0 2 0 0 0 2 
+0 0 0 0 2 1 
+2 0 0 0 0 2 
+0 2 0 0 1 0 
+0 0 0 0 2 0 
+0 0 1 0 0 0 
+index=3 data=3
+index=4 data=4
+index=3 data=3
+index=4 data=4
+index=3 data=3
+index=4 data=4
+index=9999 data=4
+0 0 0 0 0 0 
+1 1 0 0 0 0 
+2 0 0 0 0 0 
+1 0 0 0 0 0 
+0 0 1 0 0 1 
+0 0 1 0 0 1 
+index=-7 data=-7
+index=-9999 data=-7
+index=-9999 data=-7
+index=-9999 data=-7
+index=-9999 data=-7
+index=-9999 data=-7
+index=-9999 data=-7
+0 2 0 0 2 0 
+2 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 2 2 
+0 2 0 0 2 0 
+2 0 0 0 2 2 
+index=9999 data=10
+index=9999 data=10
+index=9999 data=10
+index=9999 data=10
+index=9999 data=10
+index=9999 data=10
+index=9999 data=10
+0 0 0 1 0 0 
+0 0 0 0 1 0 
+0 1 0 0 1 0 
+0 0 1 0 0 0 
+1 0 0 1 1 1 
+1 1 0 0 0 1 
+index=-12 data=-12
+index=-9999 data=-12
+index=-9999 data=-12
+index=-9999 data=-12
+index=-9999 data=-12
+index=-9999 data=-12
+index=-9999 data=-12
+0 0 0 0 0 0 
+0 1 1 1 0 0 
+0 2 0 0 0 0 
+2 0 0 0 0 0 
+0 0 0 0 1 0 
+0 0 0 2 0 1 
+index=-3 data=-3
+index=-2 data=-2
+index=-3 data=-3
+index=-2 data=-2
+index=-3 data=-3
+index=-9999 data=-3
+index=-9999 data=-3
+0 0 0 0 1 0 
+0 1 2 0 0 2 
+0 1 0 1 2 0 
+0 0 0 0 0 0 
+1 0 0 0 0 1 
+0 0 0 0 0 1 
+index=-5 data=-5
+index=-4 data=-4
+index=-5 data=-5
+index=-4 data=-4
+index=-5 data=-5
+index=-9999 data=-5
+index=-9999 data=-5
+0 0 0 1 0 0 
+0 0 0 1 0 0 
+0 1 0 0 0 0 
+2 0 1 0 0 2 
+0 1 0 0 1 0 
+0 0 0 0 0 0 
+index=-5 data=-5
+index=-4 data=-4
+index=-5 data=-5
+index=-9999 data=-5
+index=-9999 data=-5
+index=-9999 data=-5
+index=-9999 data=-5
+0 0 0 0 0 0 
+2 0 0 0 0 2 
+0 0 0 0 0 2 
+2 0 0 0 2 0 
+0 2 0 0 2 0 
+0 2 0 2 0 2 
+index=9999 data=10
+index=9999 data=10
+index=9999 data=10
+index=9999 data=10
+index=9999 data=10
+index=9999 data=10
+index=9999 data=10
+0 2 0 0 0 0 
+1 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 2 0 0 0 
+0 1 0 0 0 0 
+index=-1 data=-1
+index=0 data=0
+index=-1 data=-1
+index=-1 data=-1
+index=-2 data=-1
+index=-9999 data=-1
+index=-9999 data=-1
+2 0 0 1 1 0 
+0 0 0 0 1 0 
+0 0 1 1 0 0 
+1 0 1 0 0 1 
+2 0 0 0 0 0 
+1 0 1 0 1 0 
+index=-10 data=-10
+index=-10 data=-10
+index=-11 data=-11
+index=-9999 data=-11
+index=-9999 data=-11
+index=-9999 data=-11
+index=-9999 data=-11
+0 2 0 1 0 1 
+0 0 1 0 0 1 
+0 1 1 0 2 1 
+0 1 0 0 0 0 
+1 1 0 0 0 0 
+2 0 0 1 0 1 
+index=-10 data=-10
+index=-9 data=-9
+index=-10 data=-10
+index=-10 data=-10
+index=-11 data=-11
+index=-11 data=-11
+index=-12 data=-11
+0 1 1 0 0 0 
+0 0 1 0 0 0 
+0 0 0 2 0 0 
+0 0 0 0 0 0 
+1 0 0 0 0 0 
+0 1 0 0 0 0 
+index=-5 data=-5
+index=-9999 data=-5
+index=-9999 data=-5
+index=-9999 data=-5
+index=-9999 data=-5
+index=-9999 data=-5
+index=-9999 data=-5
+1 0 0 0 1 1 
+0 0 0 0 0 0 
+1 0 0 0 0 1 
+0 0 0 0 1 0 
+0 0 0 0 0 1 
+2 0 2 0 2 0 
+index=-5 data=-5
+index=-4 data=-4
+index=-5 data=-5
+index=-5 data=-5
+index=-6 data=-6
+index=-9999 data=-6
+index=-9999 data=-6
+0 1 0 0 0 0 
+0 0 0 0 1 0 
+0 0 1 0 1 2 
+0 0 0 0 0 0 
+0 0 0 1 0 1 
+0 0 0 0 0 0 
+index=-6 data=-6
+index=-9999 data=-6
+index=-9999 data=-6
+index=-9999 data=-6
+index=-9999 data=-6
+index=-9999 data=-6
+index=-9999 data=-6
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 1 0 
+0 0 0 0 2 0 
+0 0 0 0 0 0 
+0 0 0 1 0 0 
+index=-2 data=-2
+index=-9999 data=-2
+index=-9999 data=-2
+index=-9999 data=-2
+index=-9999 data=-2
+index=-9999 data=-2
+index=-9999 data=-2
+1 2 0 0 1 0 
+1 2 0 1 0 0 
+1 2 0 0 0 0 
+0 0 0 0 1 0 
+0 0 0 0 0 0 
+0 1 1 0 0 1 
+index=-7 data=-7
+index=-6 data=-6
+index=-7 data=-7
+index=-6 data=-6
+index=-7 data=-7
+index=-9999 data=-7
+index=-9999 data=-7
+0 0 0 2 0 2 
+0 0 2 0 2 0 
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+0 2 0 0 2 0 
+2 1 0 2 2 0 
+index=8 data=8
+index=9 data=9
+index=9999 data=9
+index=9999 data=9
+index=9999 data=9
+index=9999 data=9
+index=9999 data=9
+2 0 0 0 0 0 
+0 0 0 2 2 0 
+2 0 0 0 0 0 
+0 0 0 0 0 0 
+2 2 0 0 0 0 
+0 0 0 0 2 0 
+index=9999 data=7
+index=9999 data=7
+index=9999 data=7
+index=9999 data=7
+index=9999 data=7
+index=9999 data=7
+index=9999 data=7
+0 0 0 0 0 0 
+0 0 0 1 2 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 1 0 
+0 0 0 0 2 0 
+index=-1 data=-1
+index=0 data=0
+index=-1 data=-1
+index=-1 data=-1
+index=-2 data=-1
+index=-9999 data=-1
+index=-9999 data=-1
+0 0 0 1 0 0 
+0 1 1 0 2 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 2 0 0 0 0 
+0 0 0 0 0 0 
+index=-2 data=-2
+index=-1 data=-1
+index=-2 data=-2
+index=-2 data=-2
+index=-3 data=-2
+index=-9999 data=-2
+index=-9999 data=-2
+0 2 2 0 2 1 
+0 0 0 0 2 0 
+2 0 0 0 0 0 
+2 0 0 2 2 0 
+0 0 2 0 0 2 
+2 0 0 0 0 2 
+index=11 data=11
+index=12 data=12
+index=9999 data=12
+index=9999 data=12
+index=9999 data=12
+index=9999 data=12
+index=9999 data=12
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+0 0 0 2 0 0 
+0 0 0 0 2 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+index=9999 data=3
+index=9999 data=3
+index=9999 data=3
+index=9999 data=3
+index=9999 data=3
+index=9999 data=3
+index=9999 data=3
+0 2 2 0 0 0 
+0 0 0 0 0 2 
+0 1 2 0 1 0 
+0 0 0 2 2 2 
+2 0 0 0 0 0 
+0 2 0 2 0 0 
+index=7 data=7
+index=8 data=8
+index=7 data=7
+index=8 data=8
+index=7 data=7
+index=8 data=8
+index=9999 data=8
+0 0 1 2 0 0 
+0 0 0 2 0 0 
+1 0 1 0 0 0 
+0 0 0 1 0 0 
+0 0 1 0 0 2 
+0 0 0 1 1 0 
+index=-5 data=-5
+index=-4 data=-4
+index=-5 data=-5
+index=-4 data=-4
+index=-5 data=-5
+index=-5 data=-5
+index=-6 data=-5
+0 0 1 1 0 0 
+0 0 0 1 0 1 
+0 0 0 0 0 0 
+0 2 0 0 0 1 
+0 1 0 0 0 0 
+0 1 0 1 0 0 
+index=-8 data=-8
+index=-9999 data=-8
+index=-9999 data=-8
+index=-9999 data=-8
+index=-9999 data=-8
+index=-9999 data=-8
+index=-9999 data=-8
+0 0 0 0 0 0 
+0 0 0 0 1 0 
+0 0 1 0 0 1 
+2 0 1 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+index=-2 data=-2
+index=-1 data=-1
+index=-2 data=-2
+index=-1 data=-1
+index=-2 data=-2
+index=-9999 data=-2
+index=-9999 data=-2
+1 1 0 0 0 1 
+0 0 0 0 1 0 
+0 0 1 1 0 1 
+0 1 0 0 0 0 
+1 0 0 0 0 0 
+0 0 0 0 0 0 
+index=-9 data=-9
+index=-9999 data=-9
+index=-9999 data=-9
+index=-9999 data=-9
+index=-9999 data=-9
+index=-9999 data=-9
+index=-9999 data=-9
+0 0 1 0 0 0 
+0 0 1 0 0 1 
+0 0 0 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 2 0 0 0 1 
+index=-3 data=-3
+index=-2 data=-2
+index=-3 data=-3
+index=-9999 data=-3
+index=-9999 data=-3
+index=-9999 data=-3
+index=-9999 data=-3
+0 0 0 2 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 1 0 0 0 1 
+index=-3 data=-3
+index=-9999 data=-3
+index=-9999 data=-3
+index=-9999 data=-3
+index=-9999 data=-3
+index=-9999 data=-3
+index=-9999 data=-3
+0 0 0 0 0 1 
+1 0 0 1 0 0 
+0 0 1 0 0 0 
+0 0 0 0 0 0 
+1 0 0 0 0 0 
+0 0 0 0 0 0 
+index=-5 data=-5
+index=-9999 data=-5
+index=-9999 data=-5
+index=-9999 data=-5
+index=-9999 data=-5
+index=-9999 data=-5
+index=-9999 data=-5
+0 0 0 0 0 0 
+0 0 2 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+index=9999 data=3
+index=9999 data=3
+index=9999 data=3
+index=9999 data=3
+index=9999 data=3
+index=9999 data=3
+index=9999 data=3
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+0 0 0 0 0 0 
+index=9999 data=1
+index=9999 data=1
+index=9999 data=1
+index=9999 data=1
+index=9999 data=1
+index=9999 data=1
+index=9999 data=1
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 1 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 2 
+index=0 data=0
+index=0 data=0
+index=-1 data=-1
+index=-9999 data=-1
+index=-9999 data=-1
+index=-9999 data=-1
+index=-9999 data=-1
+Error_number=47

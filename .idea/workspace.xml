@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Surakarta_Zero" targetName="Surakarta_Zero_New" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="76f3346d-3565-465c-ac48-1a9da648e396" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1a48fbgihgyzoYV96a7ydf3H9E2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Surakarta_Zero_New" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Surakarta_Zero" TARGET_NAME="Surakarta_Zero_New" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Surakarta_Zero" RUN_TARGET_NAME="Surakarta_Zero_New">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76f3346d-3565-465c-ac48-1a9da648e396" name="Default Changelist" comment="" />
+      <created>1585983610193</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585983610193</updated>
+      <workItem from="1585983612152" duration="32000" />
+      <workItem from="1585984046571" duration="1039000" />
+      <workItem from="1586002544463" duration="2477000" />
+      <workItem from="1586005162439" duration="1260000" />
+      <workItem from="1586006460024" duration="88000" />
+      <workItem from="1586047829333" duration="317000" />
+      <workItem from="1586051604439" duration="1026000" />
+      <workItem from="1586053568330" duration="826000" />
+      <workItem from="1586088892095" duration="3144000" />
+      <workItem from="1586156248096" duration="1109000" />
+      <workItem from="1586173263485" duration="1815000" />
+      <workItem from="1586175211220" duration="1056000" />
+      <workItem from="1586177540202" duration="77000" />
+      <workItem from="1586179468580" duration="233000" />
+      <workItem from="1586179755129" duration="246000" />
+      <workItem from="1586180028048" duration="925000" />
+      <workItem from="1586181055964" duration="119000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1033" y="452" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586089250580">
+      <screen x="0" y="23" width="2560" height="1350" />
+    </state>
+    <state x="1033" y="452" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.1350@0.23.2560.1350" timestamp="1586089250580" />
+    <state width="2518" height="560" key="GridCell.Tab.0.bottom" timestamp="1586181174570">
+      <screen x="0" y="23" width="2560" height="1350" />
+    </state>
+    <state width="2518" height="560" key="GridCell.Tab.0.bottom/0.23.2560.1350@0.23.2560.1350" timestamp="1586181174570" />
+    <state width="2518" height="560" key="GridCell.Tab.0.center" timestamp="1586181174570">
+      <screen x="0" y="23" width="2560" height="1350" />
+    </state>
+    <state width="2518" height="560" key="GridCell.Tab.0.center/0.23.2560.1350@0.23.2560.1350" timestamp="1586181174570" />
+    <state width="2518" height="560" key="GridCell.Tab.0.left" timestamp="1586181174569">
+      <screen x="0" y="23" width="2560" height="1350" />
+    </state>
+    <state width="2518" height="560" key="GridCell.Tab.0.left/0.23.2560.1350@0.23.2560.1350" timestamp="1586181174569" />
+    <state width="2518" height="560" key="GridCell.Tab.0.right" timestamp="1586181174570">
+      <screen x="0" y="23" width="2560" height="1350" />
+    </state>
+    <state width="2518" height="560" key="GridCell.Tab.0.right/0.23.2560.1350@0.23.2560.1350" timestamp="1586181174570" />
+    <state x="789" y="337" key="SettingsEditor" timestamp="1585983625478">
+      <screen x="0" y="23" width="2560" height="1350" />
+    </state>
+    <state x="789" y="337" key="SettingsEditor/0.23.2560.1350@0.23.2560.1350" timestamp="1585983625478" />
+    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1586175542737">
+      <screen x="0" y="23" width="2560" height="1350" />
+    </state>
+    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup/0.23.2560.1350@0.23.2560.1350" timestamp="1586175542737" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/move_generator.cpp</url>
+          <line>135</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/move_generator.cpp</url>
+          <line>118</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/move_generator.cpp</url>
+          <line>110</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/move_generator.cpp</url>
+          <line>101</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/move_generator.cpp</url>
+          <line>30</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,3 @@
+/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir
