@@ -4,7 +4,7 @@
 
 #include "test.h"
 #include "chessboard.h"
-
+FILE *xp;
 void test::run_test(int command,int times){
     clock_t start,end;
     start = clock();
@@ -78,9 +78,9 @@ void test::testMoveGenerator(){
 
 void test::testAlphaBeta(){
     double sum=0;
-    clock_t start,end;
     FILE *fp = fopen("../resource/Data/testAlphaBeta.txt","r");
     int count=0;
+    xp = fopen("../resource/Data/test.dot","w");
     for(int a=0;a<100;a++){
         int flag;
         for(int b=0;b<6;b++){
@@ -101,12 +101,9 @@ void test::testAlphaBeta(){
 
         Chessboard myboard(1,chessboard);
 
-        int alpha=-2147483646,beta=2147483647;
+        int alpha=-INT_MAX,beta=INT_MAX;
         for(int a=1;a<=7;a++){
-            start =clock();
             int vl= myboard.Alpha_Beta(a,alpha,beta,-1);
-            end = clock();
-            sum += (double)(end-start)/CLOCKS_PER_SEC;
             if(a%2)
                 data[a-1]=-vl;
             else
@@ -133,5 +130,4 @@ void test::testAlphaBeta(){
         }
     }
     printf("Error_number=%d\n",count);
-    cout<<sum<<endl;
 }

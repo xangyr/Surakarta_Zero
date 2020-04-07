@@ -151,23 +151,20 @@ int Chessboard::anotherMark(){
 }
 
 int Chessboard::Evaluate_test(int who_test){
-    int count=0;
-    int flag_1=1,flag_2=1;
-    for(int a=0;a<6;a++){
-        for(int b=0;b<6;b++){
-            if(board[a][b]==who_test){
-                count++;
-                flag_1=0;
-            }
-            else if (board[a][b]==-who_test){
-                count--;
-                flag_2=0;
-            }
-        }
+    if(who_test==BLACK_CHESS) {
+        if (black == 0)
+            return -9999;
+        if (white == 0)
+            return 9999;
+        else
+            return black - white;
     }
-    if(flag_1)
-        return -9999;
-    else if(flag_2)
-        return 9999;
-    return count;
+    else{
+        if (black == 0)
+            return 9999;
+        if (white == 0)
+            return -9999;
+        else
+            return white-black;
+    }
 }

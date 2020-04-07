@@ -48,25 +48,42 @@ void Chessboard::print() {
     }
 }
 
-int Chessboard::judge(){
-    int count_1=0,count_2=0;
-    for(int a=0;a<6;a++){
-        for(int b=0;b<6;b++){
-            if(board[a][b]==side)
-                count_1++;
-            else if(board[a][b]==-side)
-                count_2++;
-        }
+int Chessboard::judge(){//返回1代表自己输了，返回2代表对方输了，返回0代表未分出胜负
+    if(side==BLACK_CHESS) {
+        if (black == 0)
+            return 1;
+        else if (white == 0)
+            return 2;
+        else
+            return 0;
+}
+    else{
+        if (black == 0)
+            return 2;
+        else if (white == 0)
+            return 1;
+        else
+            return 0;
     }
-
-    if(count_1==0)
-        return 1;
-    else if(count_2==0)
-        return 2;
-    else
-        return 0;
 }
 
-
+int Chessboard::makeMove(singleMove x,int minimaxplayer){
+    int origin = board[x.to.x][x.to.y];
+    board[x.from.x][x.from.y] = 0;
+    board[x.to.x][x.to.y] = minimaxplayer;
+    if(origin==BLACK_CHESS)
+        black--;
+    else if(origin==WHITE_CHESS)
+        white--;
+    return origin;
+}
+int Chessboard::unMakeMove(singleMove x,int minimaxplayer,int origin){
+    board[x.to.x][x.to.y] = origin;
+    board[x.from.x][x.from.y] = minimaxplayer;
+    if(origin==BLACK_CHESS)
+        black++;
+    else if(origin==WHITE_CHESS)
+        white++;
+}
 
 

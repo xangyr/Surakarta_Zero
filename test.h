@@ -8,6 +8,7 @@
 #define AB 2
 #include <stdio.h>
 #include <ctime>
+#include <climits>
 class test{
 public:
     void run_test(int command,int times);

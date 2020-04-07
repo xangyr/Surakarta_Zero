@@ -22,7 +22,8 @@ public:
     void print();
     int judge();
     void Move_Generate(ArrayList &move_array, int who);
-
+    int makeMove(singleMove x,int minimaxplayer);
+    int unMakeMove(singleMove x,int minimaxplayer,int origin);
     int Evaluate(int who_test);
     int Alpha_Beta(int depth, int alpha, int beta, int minimaxplayer);
 private:
