@@ -30,36 +30,6 @@ void Chessboard::Move_Generate(ArrayList &move_array, int who)
 
 }
 
-void Chessboard::Add_Move(Move_List *h, int from_x, int from_y, int to_x, int to_y)
-{   int flag=h->flag;
-    h->list[flag].from.x = from_x;
-    h->list[flag].from.y = from_y;
-    h->list[flag].to.x  = to_x;
-    h->list[flag].to.y= to_y;
-    h->flag++;
-}
-void  Chessboard::Add_Move_Attack(Move_List *h,int from_x,int from_y,int to_x,int to_y){
-    int index=0;
-    for(int a=0;a<h->flag;a++){
-
-        if(from_x==h->list[a].from.x&&from_y==h->list[a].from.y&&to_x==h->list[a].to.x&&to_y==h->list[a].to.y)
-        {
-            index=1;
-            break;
-        }
-    }
-    if(!index){
-        int flag=h->flag;
-        h->list[flag].from.x = from_x;
-        h->list[flag].from.y = from_y;
-        h->list[flag].to.x  = to_x;
-        h->list[flag].to.y= to_y;
-        h->flag++;
-    }
-
-}
-
-
 void Chessboard::Generate_Move_Attack(ArrayList &move_array,int who){
 
     Rool rool[4][6];
@@ -247,28 +217,3 @@ int Chessboard::extract_inside_rool_4(Rool *rool_4){
     }
     return index;
 }
-/*
-int Sort_Move(Move *h,int flag){
-    Move *p;
-    int index,count=0;
-    p=(Move *)malloc(24*sizeof(Move));
-    for(int i=0;i<flag;i++)
-    {index=0;
-        for(int o=i+1;o<flag;o++){
-            if(h[i].from.x==h[o].from.x&&h[i].from.y==h[o].from.y&&h[i].to.x==h[o].to.x&&h[i].to.y==h[o].to.y)
-            {
-                index=1;
-                flag--;
-                break;
-            }
-        }
-        if(!index)
-        {
-            p[count]=h[count];
-            count++;
-        }
-    }
-    h=p;
-    return flag;
-}
-*/

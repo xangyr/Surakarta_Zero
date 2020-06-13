@@ -5,9 +5,6 @@ CMakeFiles/Surakarta_Zero_New.dir/ArrayList.cpp.o: ../ArrayList.cpp
 CMakeFiles/Surakarta_Zero_New.dir/ArrayList.cpp.o: ../ArrayList.h
 CMakeFiles/Surakarta_Zero_New.dir/ArrayList.cpp.o: ../basic.h
 
-CMakeFiles/Surakarta_Zero_New.dir/basic.cpp.o: ../basic.cpp
-CMakeFiles/Surakarta_Zero_New.dir/basic.cpp.o: ../basic.h
-
 CMakeFiles/Surakarta_Zero_New.dir/chessboard.cpp.o: ../ArrayList.h
 CMakeFiles/Surakarta_Zero_New.dir/chessboard.cpp.o: ../basic.h
 CMakeFiles/Surakarta_Zero_New.dir/chessboard.cpp.o: ../chessboard.cpp

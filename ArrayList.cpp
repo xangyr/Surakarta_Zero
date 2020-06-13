@@ -55,3 +55,12 @@ void ArrayList::print(){
         cout<<array[a].from.x<< " "<< array[a].from.y<<" "<<array[a].to.x<<" "<<array[a].to.y<<endl;
     }
 }
+
+bool ArrayList::find(int from_x,int from_y,int to_x,int to_y){
+    for(int a=start;a<length;a++){
+        if(array[a].from.x == from_x && array[a].from.y == from_y && array[a].to.x == to_x && array[a].to.y == to_y)
+            return true;
+    }
+    return false;
+}
+

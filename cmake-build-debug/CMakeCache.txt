@@ -388,6 +388,6 @@ FIND_PACKAGE_MESSAGE_DETAILS_SDL2_TTF:INTERNAL=[/Library/Frameworks/SDL2_ttf.fra
 //ADVANCED property for variable: ProcessorCount_cmd_sysctl
 ProcessorCount_cmd_sysctl-ADVANCED:INTERNAL=1
 SDL2_IMAGE_LIBRARY_TEMP:INTERNAL=/Library/Frameworks/SDL2_image.framework
-SDL2_LIBRARY_TEMP:INTERNAL=/Library/Frameworks/SDL2.framework;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa
+SDL2_LIBRARY_TEMP:INTERNAL=/Library/Frameworks/SDL2.framework;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa;-framework Cocoa
 SDL2_TTF_LIBRARY_TEMP:INTERNAL=/Library/Frameworks/SDL2_ttf.framework
 

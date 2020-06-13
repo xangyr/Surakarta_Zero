@@ -1,0 +1,509 @@
+0 2 2 0 0 0 
+0 0 0 0 1 0 
+0 0 0 0 2 0 
+0 2 0 1 0 0 
+0 0 0 0 0 2 
+2 0 0 0 0 0 
+depth=1 index=-5 my=-5
+depth=2 index=-4 my=-4
+depth=3 index=-5 my=-9999
+depth=4 index=-9999 my=-9999
+depth=5 index=-9999 my=-9999
+depth=6 index=-9999 my=-9999
+depth=7 index=-9999 my=-9999
+2 0 0 0 2 2 
+0 2 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+1 0 0 0 0 0 
+0 0 0 0 0 0 
+depth=1 index=-4 my=-9999
+depth=2 index=-9999 my=-9999
+depth=3 index=-9999 my=-9999
+depth=4 index=-9999 my=-9999
+depth=5 index=-9999 my=-9999
+depth=6 index=-9999 my=-9999
+depth=7 index=-9999 my=-9999
+0 0 0 0 1 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 2 0 0 0 
+depth=1 index=0 my=0
+depth=2 index=0 my=0
+depth=3 index=0 my=0
+depth=4 index=1 my=0
+depth=5 index=9999 my=0
+depth=6 index=9999 my=0
+depth=7 index=9999 my=0
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+1 2 0 0 1 0 
+0 0 1 0 1 0 
+0 0 0 0 0 0 
+0 0 0 1 0 0 
+depth=1 index=3 my=3
+depth=2 index=4 my=9999
+depth=3 index=9999 my=9999
+depth=4 index=9999 my=9999
+depth=5 index=9999 my=9999
+depth=6 index=9999 my=9999
+depth=7 index=9999 my=9999
+0 0 0 0 0 0 
+0 0 0 2 0 0 
+0 0 0 0 0 0 
+0 0 0 0 1 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+depth=1 index=-1 my=-9999
+depth=2 index=-9999 my=-9999
+depth=3 index=-9999 my=-9999
+depth=4 index=-9999 my=-9999
+depth=5 index=-9999 my=-9999
+depth=6 index=-9999 my=-9999
+depth=7 index=-9999 my=-9999
+0 0 0 0 2 0 
+0 0 0 0 0 0 
+0 0 0 0 1 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 1 0 0 
+depth=1 index=1 my=0
+depth=2 index=1 my=1
+depth=3 index=1 my=1
+depth=4 index=2 my=9999
+depth=5 index=9999 my=9999
+depth=6 index=9999 my=9999
+depth=7 index=9999 my=9999
+0 1 0 0 0 0 
+2 0 0 0 2 0 
+0 0 0 2 1 0 
+0 0 0 0 0 2 
+0 2 0 0 2 0 
+0 2 0 0 0 2 
+depth=1 index=-7 my=-7
+depth=2 index=-6 my=-6
+depth=3 index=-7 my=-9999
+depth=4 index=-9999 my=-9999
+depth=5 index=-9999 my=-9999
+depth=6 index=-9999 my=-9999
+depth=7 index=-9999 my=-9999
+0 0 0 1 0 1 
+2 0 0 0 0 0 
+0 0 0 1 1 1 
+0 0 0 0 0 0 
+0 0 1 2 0 0 
+1 0 0 1 0 0 
+depth=1 index=5 my=5
+depth=2 index=6 my=6
+depth=3 index=5 my=5
+depth=4 index=5 my=5
+depth=5 index=5 my=5
+depth=6 index=6 my=9999
+depth=7 index=6 my=9999
+2 0 0 0 0 0 
+0 2 0 0 0 0 
+1 1 0 0 0 0 
+0 0 0 0 0 0 
+0 2 0 0 2 0 
+2 0 0 0 2 0 
+depth=1 index=-5 my=-5
+depth=2 index=-5 my=-4
+depth=3 index=-6 my=-9999
+depth=4 index=-9999 my=-9999
+depth=5 index=-9999 my=-9999
+depth=6 index=-9999 my=-9999
+depth=7 index=-9999 my=-9999
+0 0 1 0 0 1 
+1 0 0 1 0 2 
+2 0 1 0 0 0 
+0 1 1 1 0 0 
+0 0 0 0 0 0 
+1 0 2 1 0 1 
+depth=1 index=7 my=7
+depth=2 index=8 my=8
+depth=3 index=7 my=7
+depth=4 index=8 my=8
+depth=5 index=7 my=7
+depth=6 index=8 my=9
+depth=7 index=8 my=8
+0 0 0 0 0 0 
+2 2 2 1 0 0 
+0 0 0 2 0 0 
+0 0 0 0 0 0 
+2 2 0 0 0 0 
+0 0 1 0 0 0 
+depth=1 index=-5 my=-5
+depth=2 index=-4 my=-4
+depth=3 index=-5 my=-9999
+depth=4 index=-9999 my=-9999
+depth=5 index=-9999 my=-9999
+depth=6 index=-9999 my=-9999
+depth=7 index=-9999 my=-9999
+0 0 0 0 2 0 
+0 1 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 1 0 0 
+1 0 0 0 0 0 
+0 0 0 0 0 0 
+depth=1 index=2 my=2
+depth=2 index=3 my=3
+depth=3 index=3 my=3
+depth=4 index=4 my=9999
+depth=5 index=9999 my=9999
+depth=6 index=9999 my=9999
+depth=7 index=9999 my=9999
+2 0 0 2 2 0 
+0 0 0 0 0 0 
+0 0 1 0 1 0 
+0 0 0 0 2 2 
+0 0 2 0 0 0 
+0 0 0 0 0 0 
+depth=1 index=-5 my=-5
+depth=2 index=-4 my=-4
+depth=3 index=-5 my=-9999
+depth=4 index=-9999 my=-9999
+depth=5 index=-9999 my=-9999
+depth=6 index=-9999 my=-9999
+depth=7 index=-9999 my=-9999
+2 0 0 1 0 0 
+0 0 0 0 1 0 
+0 0 0 0 0 0 
+1 1 1 0 0 1 
+0 1 1 0 1 0 
+0 0 0 0 0 0 
+depth=1 index=8 my=8
+depth=2 index=9 my=9999
+depth=3 index=9999 my=9999
+depth=4 index=9999 my=9999
+depth=5 index=9999 my=9999
+depth=6 index=9999 my=9999
+depth=7 index=9999 my=9999
+0 0 1 0 0 0 
+0 0 0 0 0 0 
+0 2 0 0 0 0 
+0 0 0 0 1 0 
+0 0 1 0 0 0 
+1 0 0 0 2 0 
+depth=1 index=1 my=1
+depth=2 index=2 my=2
+depth=3 index=1 my=1
+depth=4 index=1 my=2
+depth=5 index=1 my=2
+depth=6 index=1 my=9999
+depth=7 index=1 my=9999
+0 0 0 0 0 0 
+2 0 0 0 0 0 
+0 2 0 0 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+0 1 0 0 0 0 
+depth=1 index=-1 my=-1
+depth=2 index=0 my=0
+depth=3 index=-1 my=-1
+depth=4 index=-1 my=-1
+depth=5 index=-2 my=-9999
+depth=6 index=-9999 my=-9999
+depth=7 index=-9999 my=-9999
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 2 0 0 
+0 1 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+depth=1 index=-1 my=-9999
+depth=2 index=-9999 my=-9999
+depth=3 index=-9999 my=-9999
+depth=4 index=-9999 my=-9999
+depth=5 index=-9999 my=-9999
+depth=6 index=-9999 my=-9999
+depth=7 index=-9999 my=-9999
+2 0 0 1 0 1 
+1 0 1 0 1 0 
+0 0 1 0 0 0 
+0 0 0 0 0 0 
+2 1 0 0 1 0 
+1 1 1 0 0 0 
+depth=1 index=8 my=8
+depth=2 index=9 my=9
+depth=3 index=9 my=9
+depth=4 index=10 my=9999
+depth=5 index=9999 my=9999
+depth=6 index=9999 my=9999
+depth=7 index=9999 my=9999
+2 0 0 0 0 0 
+0 0 0 2 2 0 
+0 2 0 0 0 2 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+depth=1 index=-5 my=-9999
+depth=2 index=-9999 my=-9999
+depth=3 index=-9999 my=-9999
+depth=4 index=-9999 my=-9999
+depth=5 index=-9999 my=-9999
+depth=6 index=-9999 my=-9999
+depth=7 index=-9999 my=-9999
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 1 2 0 2 1 
+0 0 1 0 2 1 
+0 0 0 0 0 0 
+0 0 0 0 0 2 
+depth=1 index=0 my=0
+depth=2 index=1 my=1
+depth=3 index=0 my=0
+depth=4 index=0 my=0
+depth=5 index=-1 my=-1
+depth=6 index=0 my=0
+depth=7 index=0 my=-1
+0 0 0 2 1 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 1 0 1 0 
+depth=1 index=1 my=1
+depth=2 index=1 my=1
+depth=3 index=1 my=1
+depth=4 index=1 my=9999
+depth=5 index=1 my=9999
+depth=6 index=2 my=9999
+depth=7 index=9999 my=9999
+0 0 0 0 0 0 
+0 0 0 2 0 2 
+2 0 0 0 0 2 
+0 0 2 2 0 0 
+1 0 0 0 0 0 
+0 0 0 1 0 2 
+depth=1 index=-6 my=-6
+depth=2 index=-5 my=-5
+depth=3 index=-6 my=-9999
+depth=4 index=-9999 my=-9999
+depth=5 index=-9999 my=-9999
+depth=6 index=-9999 my=-9999
+depth=7 index=-9999 my=-9999
+2 0 0 0 0 0 
+2 2 2 0 0 0 
+0 2 0 2 2 0 
+0 0 0 0 0 1 
+2 1 0 0 0 0 
+2 2 2 0 0 2 
+depth=1 index=-11 my=-11
+depth=2 index=-10 my=-10
+depth=3 index=-11 my=-9999
+depth=4 index=-9999 my=-9999
+depth=5 index=-9999 my=-9999
+depth=6 index=-9999 my=-9999
+depth=7 index=-9999 my=-9999
+0 0 0 0 0 0 
+0 0 0 0 1 0 
+0 1 0 0 0 0 
+0 0 0 0 0 1 
+0 0 0 2 0 0 
+0 0 0 0 0 0 
+depth=1 index=1 my=1
+depth=2 index=2 my=9999
+depth=3 index=9999 my=9999
+depth=4 index=9999 my=9999
+depth=5 index=9999 my=9999
+depth=6 index=9999 my=9999
+depth=7 index=9999 my=9999
+2 2 2 0 0 0 
+0 0 2 2 0 0 
+0 0 0 0 0 2 
+0 0 0 0 2 0 
+0 0 0 0 0 0 
+2 0 0 0 0 0 
+depth=1 index=-8 my=-9999
+depth=2 index=-9999 my=-9999
+depth=3 index=-9999 my=-9999
+depth=4 index=-9999 my=-9999
+depth=5 index=-9999 my=-9999
+depth=6 index=-9999 my=-9999
+depth=7 index=-9999 my=-9999
+0 1 2 2 2 0 
+0 0 0 0 0 0 
+2 0 0 0 0 0 
+2 0 0 0 0 2 
+0 0 0 0 2 0 
+2 2 0 0 1 0 
+depth=1 index=-8 my=-8
+depth=2 index=-7 my=-7
+depth=3 index=-8 my=-8
+depth=4 index=-8 my=-8
+depth=5 index=-9 my=-9999
+depth=6 index=-9999 my=-9999
+depth=7 index=-9999 my=-9999
+0 0 1 2 0 1 
+0 1 0 1 0 2 
+1 0 0 0 0 1 
+0 0 1 0 0 0 
+0 0 0 1 0 0 
+0 0 0 0 2 0 
+depth=1 index=4 my=4
+depth=2 index=5 my=5
+depth=3 index=4 my=4
+depth=4 index=5 my=5
+depth=5 index=4 my=4
+depth=6 index=5 my=6
+depth=7 index=5 my=5
+0 2 0 0 2 0 
+0 0 0 0 0 0 
+0 0 0 1 0 0 
+0 2 0 0 2 0 
+2 2 0 0 0 2 
+0 0 0 0 0 0 
+depth=1 index=-7 my=-9999
+depth=2 index=-9999 my=-9999
+depth=3 index=-9999 my=-9999
+depth=4 index=-9999 my=-9999
+depth=5 index=-9999 my=-9999
+depth=6 index=-9999 my=-9999
+depth=7 index=-9999 my=-9999
+0 0 0 0 0 0 
+0 0 0 0 2 2 
+0 0 2 0 2 2 
+2 0 0 0 0 2 
+2 2 0 0 0 2 
+0 0 0 2 0 2 
+depth=1 index=-12 my=-9999
+depth=2 index=-9999 my=-9999
+depth=3 index=-9999 my=-9999
+depth=4 index=-9999 my=-9999
+depth=5 index=-9999 my=-9999
+depth=6 index=-9999 my=-9999
+depth=7 index=-9999 my=-9999
+0 1 0 0 2 0 
+2 0 0 2 0 0 
+2 2 0 0 2 0 
+0 0 0 0 2 0 
+2 0 0 0 0 0 
+0 2 0 2 0 2 
+depth=1 index=-11 my=-9999
+depth=2 index=-9999 my=-9999
+depth=3 index=-9999 my=-9999
+depth=4 index=-9999 my=-9999
+depth=5 index=-9999 my=-9999
+depth=6 index=-9999 my=-9999
+depth=7 index=-9999 my=-9999
+0 0 0 0 2 0 
+0 0 0 0 0 0 
+0 0 0 2 1 0 
+0 0 0 0 2 0 
+0 0 0 2 0 0 
+2 0 0 0 0 0 
+depth=1 index=-5 my=-9999
+depth=2 index=-9999 my=-9999
+depth=3 index=-9999 my=-9999
+depth=4 index=-9999 my=-9999
+depth=5 index=-9999 my=-9999
+depth=6 index=-9999 my=-9999
+depth=7 index=-9999 my=-9999
+0 0 2 0 0 1 
+1 2 0 2 0 0 
+2 2 0 1 0 0 
+0 2 2 0 0 0 
+2 0 0 0 0 0 
+2 0 0 0 0 2 
+depth=1 index=-8 my=-8
+depth=2 index=-7 my=-7
+depth=3 index=-8 my=-8
+depth=4 index=-8 my=-8
+depth=5 index=-9 my=-9
+depth=6 index=-9 my=-9
+depth=7 index=-10 my=-9999
+1 0 0 1 1 0 
+2 0 0 2 0 2 
+0 0 0 0 2 0 
+2 2 0 0 2 0 
+0 0 2 2 0 2 
+0 0 0 2 0 0 
+depth=1 index=-9 my=-9
+depth=2 index=-8 my=-8
+depth=3 index=-9 my=-9
+depth=4 index=-9 my=-9
+depth=5 index=-10 my=-9999
+depth=6 index=-9999 my=-9999
+depth=7 index=-9999 my=-9999
+2 2 0 2 0 0 
+0 0 0 2 0 0 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+0 0 1 0 1 0 
+0 0 0 0 0 0 
+depth=1 index=-4 my=-4
+depth=2 index=-3 my=-3
+depth=3 index=-4 my=-4
+depth=4 index=-4 my=-4
+depth=5 index=-5 my=-9999
+depth=6 index=-9999 my=-9999
+depth=7 index=-9999 my=-9999
+0 0 0 2 0 1 
+0 0 0 0 0 0 
+0 0 0 0 2 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+depth=1 index=-1 my=-1
+depth=2 index=-1 my=-1
+depth=3 index=-2 my=-9999
+depth=4 index=-9999 my=-9999
+depth=5 index=-9999 my=-9999
+depth=6 index=-9999 my=-9999
+depth=7 index=-9999 my=-9999
+0 0 1 0 0 0 
+2 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+depth=1 index=0 my=0
+depth=2 index=0 my=0
+depth=3 index=0 my=0
+depth=4 index=0 my=0
+depth=5 index=0 my=0
+depth=6 index=0 my=0
+depth=7 index=-1 my=0
+0 0 0 0 1 0 
+0 0 0 0 0 0 
+0 2 0 0 2 0 
+0 0 0 0 0 0 
+1 0 0 0 0 2 
+0 0 0 0 2 0 
+depth=1 index=-3 my=-3
+depth=2 index=-2 my=-2
+depth=3 index=-3 my=-3
+depth=4 index=-3 my=-3
+depth=5 index=-4 my=-9999
+depth=6 index=-9999 my=-9999
+depth=7 index=-9999 my=-9999
+2 0 0 0 0 0 
+0 0 2 0 2 0 
+0 2 0 0 2 0 
+1 0 0 2 0 0 
+2 2 0 0 0 0 
+0 0 2 0 2 2 
+depth=1 index=-11 my=-9999
+depth=2 index=-9999 my=-9999
+depth=3 index=-9999 my=-9999
+depth=4 index=-9999 my=-9999
+depth=5 index=-9999 my=-9999
+depth=6 index=-9999 my=-9999
+depth=7 index=-9999 my=-9999
+2 0 0 0 0 0 
+2 0 0 0 2 0 
+0 0 0 2 0 0 
+2 0 0 1 0 2 
+2 2 0 2 0 0 
+2 2 0 0 0 0 
+depth=1 index=-11 my=-9999
+depth=2 index=-9999 my=-9999
+depth=3 index=-9999 my=-9999
+depth=4 index=-9999 my=-9999
+depth=5 index=-9999 my=-9999
+depth=6 index=-9999 my=-9999
+depth=7 index=-9999 my=-9999
+Error_number=39
+time:33s

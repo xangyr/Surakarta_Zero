@@ -5,6 +5,7 @@
 #ifndef SURAKARTA_ZERO_UI_H
 #define SURAKARTA_ZERO_UI_H
 
+#include <stack>
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
 #include <SDL2/SDL_ttf.h>
@@ -12,8 +13,9 @@
 class UI{
 public:
     UI();
-    void game();
+    void startGame();
 private:
+    int game;
     string ttfPath = "../resource/HelveticaLt.ttf";
     SDL_Texture *back;
     SDL_Surface *chess;
@@ -27,17 +29,23 @@ private:
     SDL_Texture *WhiteChess;
     SDL_Rect position[6][6];
     SDL_Rect display_position[6][6];
-    SDL_Texture *Blackmax;
-    SDL_Texture *Blackmini;
-    SDL_Texture *Whitemax;
-    SDL_Texture *Whitemini;
-    SDL_Texture *Computermax;
-    SDL_Texture *Computermini;
-    SDL_Texture *Humanmax;
-    SDL_Texture *Humanmini;
+    SDL_Texture *blackL;
+    SDL_Texture *blackS;
+    SDL_Texture *whiteL;
+    SDL_Texture *whiteS;
+    SDL_Texture *computerL;
+    SDL_Texture *computerS;
+    SDL_Texture *humanL;
+    SDL_Texture *humanS;
     SDL_Texture *dback;
-    SDL_Texture *tishi;
-    SDL_Texture *tishi_1;
-    void display(Chessboard myBoard);
+    SDL_Texture *remind;
+    SDL_Texture *remind1;
+    stack <eachRound> round;
+    void display(Chessboard gameBoard);
+    int placeMove(Chessboard &gameBoard);
+    int Play_H(Chessboard &gameboard,int x,int y);
+    int Locate_x(int mouse_y);
+    int Locate_y(int mouse_x);
+    choice chooseSide();
 };
 #endif //SURAKARTA_ZERO_UI_H

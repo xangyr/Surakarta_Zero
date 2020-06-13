@@ -11,7 +11,13 @@
 #define NO_CHESS 0
 #define WHITE_CHESS 1
 #define BLACK_CHESS -1
+#define EXIT_FLAG -1
+#define HUMAN_FIRST 1
+#define COMPUTER_FIRST 2
 #include <iostream>
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
+#include <SDL2/SDL_ttf.h>
 
 typedef struct{
     int x;
@@ -47,10 +53,6 @@ typedef struct{
     Position from;
 }Rool;
 
-typedef struct{
-    Move_p list[100];
-    int  flag;
-}Move_List;
 
 typedef struct{
     int depth;
@@ -84,23 +86,10 @@ typedef struct{
 }choice;
 
 typedef struct{
-    Rool *rool;
-    int index;
-}role;
+    Position from;
+    int fromOrigin;
+    Position to;
+    int toOrigin;
+}eachRound;
 
-typedef struct{
-    Move_List *h;
-    int who;
-}Para_1;
-
-class Move{
-public:
-    singleMove move;
-    Move(int from_x,int from_y,int to_x,int to_y);
-};
-void visualize_board();
-void visualize(Move_List *h);
-int judge(int chessboard_test[][6]);
-int max(int a,int b);
-int mini(int a,int b);
 #endif //SURAKARTA_ZERO_BASIC_H

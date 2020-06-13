@@ -13,20 +13,41 @@
   <component name="ChangeListManager">
     <list default="true" id="76f3346d-3565-465c-ac48-1a9da648e396" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayList.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayList.h" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic.h" beforeDir="false" afterPath="$PROJECT_DIR$/basic.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chessboard.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chessboard.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chessboard.h" beforeDir="false" afterPath="$PROJECT_DIR$/chessboard.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/ArrayList.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/ArrayList.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/basic.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/chessboard.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/chessboard.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/evaluator.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/evaluator.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/move_generator.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/move_generator.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/search_engine.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/search_engine.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/test.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/test.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/ui.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/ui.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Surakarta_Zero.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Surakarta_Zero.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Surakarta_Zero_New" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Surakarta_Zero_New" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evaluator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/evaluator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/move_generator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/move_generator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Data/testAlphaBeta.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resource/Data/testAlphaBeta.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/search_engine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/search_engine.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.h" beforeDir="false" afterPath="$PROJECT_DIR$/test.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ui.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.h" beforeDir="false" afterPath="$PROJECT_DIR$/ui.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +110,9 @@
       <workItem from="1586181055964" duration="119000" />
       <workItem from="1586181235464" duration="146000" />
       <workItem from="1586219223248" duration="934000" />
-      <workItem from="1586261007605" duration="2027000" />
+      <workItem from="1586261007605" duration="10707000" />
+      <workItem from="1586601955600" duration="11115000" />
+      <workItem from="1586692973565" duration="7366000" />
     </task>
     <servers />
   </component>
@@ -101,22 +124,22 @@
       <screen x="0" y="23" width="2560" height="1350" />
     </state>
     <state x="1033" y="452" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.1350@0.23.2560.1350" timestamp="1586089250580" />
-    <state width="2518" height="431" key="GridCell.Tab.0.bottom" timestamp="1586263629195">
+    <state width="2518" height="332" key="GridCell.Tab.0.bottom" timestamp="1586700893320">
       <screen x="0" y="23" width="2560" height="1350" />
     </state>
-    <state width="2518" height="431" key="GridCell.Tab.0.bottom/0.23.2560.1350@0.23.2560.1350" timestamp="1586263629195" />
-    <state width="2518" height="431" key="GridCell.Tab.0.center" timestamp="1586263629194">
+    <state width="2518" height="332" key="GridCell.Tab.0.bottom/0.23.2560.1350@0.23.2560.1350" timestamp="1586700893320" />
+    <state width="2518" height="332" key="GridCell.Tab.0.center" timestamp="1586700893319">
       <screen x="0" y="23" width="2560" height="1350" />
     </state>
-    <state width="2518" height="431" key="GridCell.Tab.0.center/0.23.2560.1350@0.23.2560.1350" timestamp="1586263629194" />
-    <state width="2518" height="431" key="GridCell.Tab.0.left" timestamp="1586263629194">
+    <state width="2518" height="332" key="GridCell.Tab.0.center/0.23.2560.1350@0.23.2560.1350" timestamp="1586700893319" />
+    <state width="2518" height="332" key="GridCell.Tab.0.left" timestamp="1586700893319">
       <screen x="0" y="23" width="2560" height="1350" />
     </state>
-    <state width="2518" height="431" key="GridCell.Tab.0.left/0.23.2560.1350@0.23.2560.1350" timestamp="1586263629194" />
-    <state width="2518" height="431" key="GridCell.Tab.0.right" timestamp="1586263629195">
+    <state width="2518" height="332" key="GridCell.Tab.0.left/0.23.2560.1350@0.23.2560.1350" timestamp="1586700893319" />
+    <state width="2518" height="332" key="GridCell.Tab.0.right" timestamp="1586700893320">
       <screen x="0" y="23" width="2560" height="1350" />
     </state>
-    <state width="2518" height="431" key="GridCell.Tab.0.right/0.23.2560.1350@0.23.2560.1350" timestamp="1586263629195" />
+    <state width="2518" height="332" key="GridCell.Tab.0.right/0.23.2560.1350@0.23.2560.1350" timestamp="1586700893320" />
     <state x="789" y="337" key="SettingsEditor" timestamp="1585983625478">
       <screen x="0" y="23" width="2560" height="1350" />
     </state>
@@ -129,36 +152,5 @@
       <screen x="0" y="23" width="2560" height="1350" />
     </state>
     <state x="945" y="331" width="670" height="676" key="search.everywhere.popup/0.23.2560.1350@0.23.2560.1350" timestamp="1586175542737" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/move_generator.cpp</url>
-          <line>135</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/move_generator.cpp</url>
-          <line>118</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/move_generator.cpp</url>
-          <line>110</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/move_generator.cpp</url>
-          <line>101</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/move_generator.cpp</url>
-          <line>30</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

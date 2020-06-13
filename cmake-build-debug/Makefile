@@ -150,33 +150,6 @@ ArrayList.cpp.s:
 	$(MAKE) -f CMakeFiles/Surakarta_Zero_New.dir/build.make CMakeFiles/Surakarta_Zero_New.dir/ArrayList.cpp.s
 .PHONY : ArrayList.cpp.s
 
-basic.o: basic.cpp.o
-
-.PHONY : basic.o
-
-# target to build an object file
-basic.cpp.o:
-	$(MAKE) -f CMakeFiles/Surakarta_Zero_New.dir/build.make CMakeFiles/Surakarta_Zero_New.dir/basic.cpp.o
-.PHONY : basic.cpp.o
-
-basic.i: basic.cpp.i
-
-.PHONY : basic.i
-
-# target to preprocess a source file
-basic.cpp.i:
-	$(MAKE) -f CMakeFiles/Surakarta_Zero_New.dir/build.make CMakeFiles/Surakarta_Zero_New.dir/basic.cpp.i
-.PHONY : basic.cpp.i
-
-basic.s: basic.cpp.s
-
-.PHONY : basic.s
-
-# target to generate assembly for a file
-basic.cpp.s:
-	$(MAKE) -f CMakeFiles/Surakarta_Zero_New.dir/build.make CMakeFiles/Surakarta_Zero_New.dir/basic.cpp.s
-.PHONY : basic.cpp.s
-
 chessboard.o: chessboard.cpp.o
 
 .PHONY : chessboard.o
@@ -378,9 +351,6 @@ help:
 	@echo "... ArrayList.o"
 	@echo "... ArrayList.i"
 	@echo "... ArrayList.s"
-	@echo "... basic.o"
-	@echo "... basic.i"
-	@echo "... basic.s"
 	@echo "... chessboard.o"
 	@echo "... chessboard.i"
 	@echo "... chessboard.s"

@@ -109,22 +109,9 @@ CMakeFiles/Surakarta_Zero_New.dir/ArrayList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Surakarta_Zero_New.dir/ArrayList.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bluesky/Desktop/Surakarta_Zero/ArrayList.cpp -o CMakeFiles/Surakarta_Zero_New.dir/ArrayList.cpp.s
 
-CMakeFiles/Surakarta_Zero_New.dir/basic.cpp.o: CMakeFiles/Surakarta_Zero_New.dir/flags.make
-CMakeFiles/Surakarta_Zero_New.dir/basic.cpp.o: ../basic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Surakarta_Zero_New.dir/basic.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Surakarta_Zero_New.dir/basic.cpp.o -c /Users/bluesky/Desktop/Surakarta_Zero/basic.cpp
-
-CMakeFiles/Surakarta_Zero_New.dir/basic.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Surakarta_Zero_New.dir/basic.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bluesky/Desktop/Surakarta_Zero/basic.cpp > CMakeFiles/Surakarta_Zero_New.dir/basic.cpp.i
-
-CMakeFiles/Surakarta_Zero_New.dir/basic.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Surakarta_Zero_New.dir/basic.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bluesky/Desktop/Surakarta_Zero/basic.cpp -o CMakeFiles/Surakarta_Zero_New.dir/basic.cpp.s
-
 CMakeFiles/Surakarta_Zero_New.dir/search_engine.cpp.o: CMakeFiles/Surakarta_Zero_New.dir/flags.make
 CMakeFiles/Surakarta_Zero_New.dir/search_engine.cpp.o: ../search_engine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Surakarta_Zero_New.dir/search_engine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Surakarta_Zero_New.dir/search_engine.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Surakarta_Zero_New.dir/search_engine.cpp.o -c /Users/bluesky/Desktop/Surakarta_Zero/search_engine.cpp
 
 CMakeFiles/Surakarta_Zero_New.dir/search_engine.cpp.i: cmake_force
@@ -137,7 +124,7 @@ CMakeFiles/Surakarta_Zero_New.dir/search_engine.cpp.s: cmake_force
 
 CMakeFiles/Surakarta_Zero_New.dir/move_generator.cpp.o: CMakeFiles/Surakarta_Zero_New.dir/flags.make
 CMakeFiles/Surakarta_Zero_New.dir/move_generator.cpp.o: ../move_generator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Surakarta_Zero_New.dir/move_generator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Surakarta_Zero_New.dir/move_generator.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Surakarta_Zero_New.dir/move_generator.cpp.o -c /Users/bluesky/Desktop/Surakarta_Zero/move_generator.cpp
 
 CMakeFiles/Surakarta_Zero_New.dir/move_generator.cpp.i: cmake_force
@@ -150,7 +137,7 @@ CMakeFiles/Surakarta_Zero_New.dir/move_generator.cpp.s: cmake_force
 
 CMakeFiles/Surakarta_Zero_New.dir/evaluator.cpp.o: CMakeFiles/Surakarta_Zero_New.dir/flags.make
 CMakeFiles/Surakarta_Zero_New.dir/evaluator.cpp.o: ../evaluator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Surakarta_Zero_New.dir/evaluator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Surakarta_Zero_New.dir/evaluator.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Surakarta_Zero_New.dir/evaluator.cpp.o -c /Users/bluesky/Desktop/Surakarta_Zero/evaluator.cpp
 
 CMakeFiles/Surakarta_Zero_New.dir/evaluator.cpp.i: cmake_force
@@ -163,7 +150,7 @@ CMakeFiles/Surakarta_Zero_New.dir/evaluator.cpp.s: cmake_force
 
 CMakeFiles/Surakarta_Zero_New.dir/test.cpp.o: CMakeFiles/Surakarta_Zero_New.dir/flags.make
 CMakeFiles/Surakarta_Zero_New.dir/test.cpp.o: ../test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Surakarta_Zero_New.dir/test.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Surakarta_Zero_New.dir/test.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Surakarta_Zero_New.dir/test.cpp.o -c /Users/bluesky/Desktop/Surakarta_Zero/test.cpp
 
 CMakeFiles/Surakarta_Zero_New.dir/test.cpp.i: cmake_force
@@ -180,7 +167,6 @@ Surakarta_Zero_New_OBJECTS = \
 "CMakeFiles/Surakarta_Zero_New.dir/ui.cpp.o" \
 "CMakeFiles/Surakarta_Zero_New.dir/chessboard.cpp.o" \
 "CMakeFiles/Surakarta_Zero_New.dir/ArrayList.cpp.o" \
-"CMakeFiles/Surakarta_Zero_New.dir/basic.cpp.o" \
 "CMakeFiles/Surakarta_Zero_New.dir/search_engine.cpp.o" \
 "CMakeFiles/Surakarta_Zero_New.dir/move_generator.cpp.o" \
 "CMakeFiles/Surakarta_Zero_New.dir/evaluator.cpp.o" \
@@ -193,14 +179,13 @@ Surakarta_Zero_New: CMakeFiles/Surakarta_Zero_New.dir/main.cpp.o
 Surakarta_Zero_New: CMakeFiles/Surakarta_Zero_New.dir/ui.cpp.o
 Surakarta_Zero_New: CMakeFiles/Surakarta_Zero_New.dir/chessboard.cpp.o
 Surakarta_Zero_New: CMakeFiles/Surakarta_Zero_New.dir/ArrayList.cpp.o
-Surakarta_Zero_New: CMakeFiles/Surakarta_Zero_New.dir/basic.cpp.o
 Surakarta_Zero_New: CMakeFiles/Surakarta_Zero_New.dir/search_engine.cpp.o
 Surakarta_Zero_New: CMakeFiles/Surakarta_Zero_New.dir/move_generator.cpp.o
 Surakarta_Zero_New: CMakeFiles/Surakarta_Zero_New.dir/evaluator.cpp.o
 Surakarta_Zero_New: CMakeFiles/Surakarta_Zero_New.dir/test.cpp.o
 Surakarta_Zero_New: CMakeFiles/Surakarta_Zero_New.dir/build.make
 Surakarta_Zero_New: CMakeFiles/Surakarta_Zero_New.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Surakarta_Zero_New"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Surakarta_Zero_New"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Surakarta_Zero_New.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

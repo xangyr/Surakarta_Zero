@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Surakarta_Zero_New.dir/ArrayList.cpp.o"
-  "CMakeFiles/Surakarta_Zero_New.dir/basic.cpp.o"
   "CMakeFiles/Surakarta_Zero_New.dir/chessboard.cpp.o"
   "CMakeFiles/Surakarta_Zero_New.dir/evaluator.cpp.o"
   "CMakeFiles/Surakarta_Zero_New.dir/main.cpp.o"

@@ -15,24 +15,24 @@ basic.h
 /Users/bluesky/Desktop/Surakarta_Zero/basic.h
 iostream
 -
+SDL2/SDL.h
+-
+SDL2/SDL_image.h
+-
+SDL2/SDL_ttf.h
+-
 
 /Users/bluesky/Desktop/Surakarta_Zero/chessboard.h
+stack
+-
+fstream
+-
 basic.h
 /Users/bluesky/Desktop/Surakarta_Zero/basic.h
 ArrayList.h
 /Users/bluesky/Desktop/Surakarta_Zero/ArrayList.h
 
-/Users/bluesky/Desktop/Surakarta_Zero/test.cpp
-test.h
-/Users/bluesky/Desktop/Surakarta_Zero/test.h
+/Users/bluesky/Desktop/Surakarta_Zero/evaluator.cpp
 chessboard.h
 /Users/bluesky/Desktop/Surakarta_Zero/chessboard.h
-
-/Users/bluesky/Desktop/Surakarta_Zero/test.h
-stdio.h
--
-ctime
--
-climits
--
 

@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/bluesky/Desktop/Surakarta_Zero/ArrayList.cpp" "/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/ArrayList.cpp.o"
-  "/Users/bluesky/Desktop/Surakarta_Zero/basic.cpp" "/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/basic.cpp.o"
   "/Users/bluesky/Desktop/Surakarta_Zero/chessboard.cpp" "/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/chessboard.cpp.o"
   "/Users/bluesky/Desktop/Surakarta_Zero/evaluator.cpp" "/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/evaluator.cpp.o"
   "/Users/bluesky/Desktop/Surakarta_Zero/main.cpp" "/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/main.cpp.o"

@@ -17,6 +17,7 @@ public:
     void push_unrepeat(int from_x,int from_y,int to_x,int to_y);
     void pop(singleMove &x);
     void print();
+    bool find(int from_x,int from_y,int to_x,int to_y);
 private:
     singleMove *array;
     int length;

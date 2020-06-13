@@ -6,6 +6,8 @@
 #define SURAKARTA_ZERO_CHESSBOARD_H
 using namespace std;
 
+#include <stack>
+#include <fstream>
 #include "basic.h"
 #include "ArrayList.h"
 //产生的走法序列查重问题
@@ -22,15 +24,17 @@ public:
     void print();
     int judge();
     void Move_Generate(ArrayList &move_array, int who);
-    int makeMove(singleMove x,int minimaxplayer);
-    int unMakeMove(singleMove x,int minimaxplayer,int origin);
+    int makeMove(singleMove x,int minimaxPlayer);
+    int unMakeMove(singleMove x,int minimaxPlayer,int origin);
     int Evaluate(int who_test);
-    int Alpha_Beta(int depth, int alpha, int beta, int minimaxplayer);
+    int alphaBeta(int depth, int alpha, int beta, int minimaxPlayer);
+    singleMove alphaBetaMove(int depth, int alpha, int beta, int minimaxPlayer);
+    bool isLegal(int from_x,int from_y,int to_x,int to_y);
+    void AI(stack <eachRound>&round,int depth);
+    void store();
 private:
     void Attack_Orbit(ArrayList &move_array,Rool rool[][6],int *flag_index,int who);
     void Generate_Move_Attack(ArrayList &move_array,int who);
-    void Add_Move(Move_List *h, int from_x, int from_y, int to_x, int to_y);
-    void Add_Move_Attack(Move_List *h,int from_x,int from_y,int to_x,int to_y);
     int extract_outside_rool_1(Rool *rool_1);
     int extract_outside_rool_2(Rool *rool);
     int extract_outside_rool_3(Rool *rool);
@@ -45,6 +49,8 @@ private:
     int arc_count();
     int anotherMark();
     int Evaluate_test(int who_test);
+    bool restore();
+    void updateNum();
 };
 
 #endif //SURAKARTA_ZERO_CHESSBOARD_H

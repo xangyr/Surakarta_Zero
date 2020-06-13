@@ -1,0 +1,38 @@
+int Chessboard::Alpha_Beta(int depth, int alpha, int beta, int minimaxplayer,int index)
+{
+
+    if (depth <= 0 || judge())
+    {
+        int value = Evaluate_test(minimaxplayer);
+        return value;
+    }
+    int val,origin;
+    ArrayList move_array ;
+    Move_Generate(move_array,minimaxplayer);
+    singleMove x;
+    ArrayList store;
+    int index_temp;
+    while(move_array.size())
+    {
+
+        move_array.pop(x);
+        origin = makeMove(x,minimaxplayer);
+        index_temp = get_index();
+        val = -Alpha_Beta(depth - 1, -beta, -alpha, -minimaxplayer,index_temp);
+        if(!store.find(-val)){
+            store.push(-val,0,0,0);
+            fprintf(xp,"    node%d -> node%d\n",index,index_temp);
+            fprintf(xp,"    node%d[label = ' %d%d ']\n",index_temp,-val,depth-1);
+        }
+        unMakeMove(x,minimaxplayer,origin);
+        if(val>=beta){
+            fprintf(xp,"    node%d[label = ' %d%d ']\n",index,alpha,depth);
+            return beta;
+        }
+        if(val>alpha){
+            alpha=val;
+        }
+    }
+    fprintf(xp,"    node%d[label = ' %d%d ']\n",index,alpha,depth);
+    return alpha;
+}
