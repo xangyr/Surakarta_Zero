@@ -12,42 +12,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76f3346d-3565-465c-ac48-1a9da648e396" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArrayList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayList.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ArrayList.h" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayList.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic.h" beforeDir="false" afterPath="$PROJECT_DIR$/basic.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chessboard.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chessboard.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chessboard.h" beforeDir="false" afterPath="$PROJECT_DIR$/chessboard.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/ArrayList.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/ArrayList.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/basic.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/chessboard.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/chessboard.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/evaluator.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/evaluator.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/move_generator.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/move_generator.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/search_engine.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/search_engine.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/test.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/test.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/ui.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Surakarta_Zero_New.dir/ui.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Surakarta_Zero.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Surakarta_Zero.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Surakarta_Zero_New" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Surakarta_Zero_New" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/move_generator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/move_generator.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/Data/testAlphaBeta.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resource/Data/testAlphaBeta.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search_engine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/search_engine.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ui.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui.h" beforeDir="false" afterPath="$PROJECT_DIR$/ui.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_ai.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game_ai.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,17 +35,17 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RunManager">
-    <configuration name="Surakarta_Zero_New" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Surakarta_Zero" TARGET_NAME="Surakarta_Zero_New" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Surakarta_Zero" RUN_TARGET_NAME="Surakarta_Zero_New">
+    <configuration name="Surakarta_Zero_New" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Surakarta_Zero" TARGET_NAME="Surakarta_Zero_New" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Surakarta_Zero" RUN_TARGET_NAME="Surakarta_Zero_New">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -113,11 +83,12 @@
       <workItem from="1586261007605" duration="10707000" />
       <workItem from="1586601955600" duration="11115000" />
       <workItem from="1586692973565" duration="7366000" />
+      <workItem from="1592401486268" duration="34000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1033" y="452" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586089250580">

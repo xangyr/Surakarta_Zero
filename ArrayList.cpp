@@ -50,6 +50,10 @@ void ArrayList::pop(singleMove &x) {
     x = array[start++];
 }
 
+void ArrayList::pull(singleMove &x,int index) {
+    x = array[index];
+}
+
 void ArrayList::print(){
     for(int a=start;a<length;a++){
         cout<<array[a].from.x<< " "<< array[a].from.y<<" "<<array[a].to.x<<" "<<array[a].to.y<<endl;

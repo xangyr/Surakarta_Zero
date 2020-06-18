@@ -1,0 +1,47 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "build",
+			"command": "g++-9",
+			"args": [
+				"-g",
+				"main.cpp",
+				"ui.cpp",
+				"ui.h",
+				"move_generator.cpp",
+				"basic.h",
+				"ArrayList.h",
+				"ArrayList.cpp",
+				"chessboard.cpp",
+				"chessboard.h",
+				"search_engine.h",
+				"search_engine.cpp",
+				"test.cpp",
+				"test.h",
+				"evaluator.cpp",
+				"-L",
+				"/usr/local/Cellar/sdl2/2.0.12_1/lib",
+				"-lSDL2",
+				"-L",
+				"/usr/local/Cellar/sdl2_image/2.0.5/lib",
+				"-lSDL2_image",
+				"-I",
+				"/usr/local/Cellar/sdl2_ttf/2.0.15/include",
+				"-L",
+				"/usr/local/Cellar/sdl2_ttf/2.0.15/lib",
+				"-lSDL2_ttf",
+				"-o",
+				"main"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		}
+	]
+}

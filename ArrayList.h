@@ -7,6 +7,7 @@
 using namespace std;
 #include <iostream>
 #include "basic.h"
+
 class ArrayList{
 public:
     ArrayList();
@@ -16,6 +17,7 @@ public:
     void push(int from_x,int from_y,int to_x,int to_y);
     void push_unrepeat(int from_x,int from_y,int to_x,int to_y);
     void pop(singleMove &x);
+    void pull(singleMove &x,int index);
     void print();
     bool find(int from_x,int from_y,int to_x,int to_y);
 private:

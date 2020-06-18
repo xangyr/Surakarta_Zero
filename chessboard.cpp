@@ -4,7 +4,10 @@
 
 #include "chessboard.h"
 
-Chessboard::Chessboard(int who) {  //初始化棋盘，上12黑，下12白
+Chessboard::Chessboard() {                   //Initialize the chessboard with 12 black chess on the top and 12 white chess on the bottom
+}
+
+Chessboard::Chessboard(int who) {                   //Initialize the chessboard with 12 black chess on the top and 12 white chess on the bottom
     //if(!restore()) {
         this->side = who;
         for (int a = 0; a < 6; a++) {
@@ -21,7 +24,7 @@ Chessboard::Chessboard(int who) {  //初始化棋盘，上12黑，下12白
     updateNum();
 }
 
-Chessboard::Chessboard(int who,int board[6][6]) {   //根据二维数组初始化棋盘
+Chessboard::Chessboard(int who,int board[6][6]) {   //Initialize the chessboard with a 2-deminsion matrix
     this->side = who;
     for(int a=0;a<6;a++){
         for(int b=0;b<6;b++){
@@ -31,7 +34,7 @@ Chessboard::Chessboard(int who,int board[6][6]) {   //根据二维数组初始�
     updateNum();
 }
 
-void Chessboard::updateNum(){
+void Chessboard::updateNum(){                       //Update the number of black and white chess according to the chessboard
     black=0;white=0;
     for(int a=0;a<6;a++){
         for(int b=0;b<6;b++){
@@ -45,7 +48,7 @@ void Chessboard::updateNum(){
 }
 
 
-void Chessboard::print() {
+void Chessboard::print() {                          //print the chessboard
     for(int  a=0;a<6;a++){
         for(int b=0;b<6;b++)
             if(board[a][b]==BLACK_CHESS)
@@ -56,7 +59,7 @@ void Chessboard::print() {
     }
 }
 
-int Chessboard::judge(){//返回1代表自己输了，返回2代表对方输了，返回0代表未分出胜负
+int Chessboard::judge(){                            //determind whether there is a side to win, 1 means oppsite win, 2 means myself win, 0 means there is no side winning
     if(side==BLACK_CHESS) {
         if (black == 0)
             return 1;
@@ -75,7 +78,7 @@ int Chessboard::judge(){//返回1代表自己输了，返回2代表对方输了�
     }
 }
 
-int Chessboard::makeMove(singleMove x,int minimaxPlayer){
+int Chessboard::makeMove(singleMove x,int minimaxPlayer){   //make the move with minimaxPlayer on the chessboard
     int origin = board[x.to.x][x.to.y];
     board[x.from.x][x.from.y] = 0;
     board[x.to.x][x.to.y] = minimaxPlayer;
@@ -86,7 +89,7 @@ int Chessboard::makeMove(singleMove x,int minimaxPlayer){
     return origin;
 }
 
-int Chessboard::unMakeMove(singleMove x,int minimaxPlayer,int origin){
+int Chessboard::unMakeMove(singleMove x,int minimaxPlayer,int origin){  //restore the chessboard with move, the moving chess and the original chess color of the place begin placed 
     board[x.to.x][x.to.y] = origin;
     board[x.from.x][x.from.y] = minimaxPlayer;
     if(origin==BLACK_CHESS)
@@ -95,7 +98,7 @@ int Chessboard::unMakeMove(singleMove x,int minimaxPlayer,int origin){
         white++;
 }
 
-bool Chessboard::isLegal(int from_x,int from_y,int to_x,int to_y){
+bool Chessboard::isLegal(int from_x,int from_y,int to_x,int to_y){      //judge whether the move being made is legal.
     ArrayList move_array;
     Move_Generate(move_array,board[from_x][from_y]);
     singleMove x;
@@ -105,7 +108,7 @@ bool Chessboard::isLegal(int from_x,int from_y,int to_x,int to_y){
 }
 
 void Chessboard::store(){
-    ofstream storeFile("../resource/store.txt",ios::out);
+    ofstream storeFile("../resource/store.txt",ios::out);               //store the chessboard to the FILE
     for(int a=0;a<6;a++){
         for(int b=0;b<6;b++){
             storeFile<<board[a][b]<<" ";
@@ -117,7 +120,7 @@ void Chessboard::store(){
 }
 
 bool Chessboard::restore(){
-    ifstream restoreFile("../resource/store.txt",ios::in);
+    ifstream restoreFile("../resource/store.txt",ios::in);             //restore the chessboard according to FILE
     for(int a=0;a<6;a++){
         for(int b=0;b<6;b++) {
             restoreFile >> board[a][b];

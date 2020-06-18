@@ -19,6 +19,7 @@ public:
     int black;
     int white;
     int side;
+    Chessboard();
     Chessboard(int who);
     Chessboard(int who,int board[6][6]);
     void print();

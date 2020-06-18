@@ -9,10 +9,10 @@ UI::UI() {
     TTF_Init();
     SDL_Window *win = SDL_CreateWindow("Surakarta", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 600, SDL_WINDOW_SHOWN);
     ren = SDL_CreateRenderer(win, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
-    back= IMG_LoadTexture(ren, "../resource/board.jpg");
-    dback = IMG_LoadTexture(ren, "../resource/dboard.jpeg");
-    chess= IMG_Load("../resource/Chess.jpg");
-    whitechess= IMG_Load("../resource/WhiteChess.png");
+    back= IMG_LoadTexture(ren, "resource/board.jpg");
+    dback = IMG_LoadTexture(ren, "resource/dboard.jpeg");
+    chess= IMG_Load("resource/Chess.jpg");
+    whitechess= IMG_Load("resource/WhiteChess.png");
     color = {0, 0, 0, 0};
     color1={191,191,191,191};
     color2 = {255,255,255,255};
@@ -52,7 +52,7 @@ UI::UI() {
 
 SDL_Texture *UI::renderText(string s, SDL_Color color,int fontSize)
 {
-    TTF_Font *font = TTF_OpenFont( ttfPath.c_str(), fontSize);
+    TTF_Font *font = TTF_OpenFont(ttfPath, fontSize);
     SDL_Surface *surf = TTF_RenderText_Blended(font, s.c_str(), color);
     SDL_Texture *texture = SDL_CreateTextureFromSurface(ren, surf);
     SDL_FreeSurface(surf);

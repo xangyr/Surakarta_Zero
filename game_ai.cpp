@@ -23,7 +23,7 @@ SDL_Texture  *tishi_1;
 
 void game_AI(int depth){
 
-    SDL_Init(SDL_INIT_EVERYTHING);
+    SDL_Init(SDL_INIT_EVERYTHING);          //Initlize the window and the SDL2 UI System
     TTF_Init();
     SDL_Window *win = SDL_CreateWindow("Suratarka", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 600, SDL_WINDOW_SHOWN);
     ren = SDL_CreateRenderer(win, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
@@ -53,8 +53,8 @@ void game_AI(int depth){
     SDL_Texture *win1 = renderText("Black Chess WIN!", "../resource/Data/HelveticaLt.ttf", color2, 40);
     SDL_Texture *win2 = renderText("White Chess WIN!", "../resource/Data/HelveticaLt.ttf", color2, 40);
 
-    Chessboard_Init(chessboard);
-    Init_Position();
+    Chessboard_Init(chessboard);        //Initialize the chessboard
+    Init_Position();                    
     Init_Display_Position();
     
     choice Choice;

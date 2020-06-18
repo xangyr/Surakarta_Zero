@@ -10,13 +10,14 @@
 #include <SDL2/SDL_image.h>
 #include <SDL2/SDL_ttf.h>
 #include "chessboard.h"
+
 class UI{
 public:
     UI();
     void startGame();
 private:
     int game;
-    string ttfPath = "../resource/HelveticaLt.ttf";
+    const char ttfPath[30] = "resource/HelveticaLt.ttf";
     SDL_Texture *back;
     SDL_Surface *chess;
     SDL_Surface *whitechess;
