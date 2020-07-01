@@ -34,6 +34,15 @@ Chessboard::Chessboard(int who,int board[6][6]) {   //Initialize the chessboard 
     updateNum();
 }
 
+void Chessboard::operator=(const Chessboard &otherBoard ){
+    for(int i=0;i<6;i++){
+        for(int j=0;j<6;j++)
+            board[i][j] = otherBoard.board[i][j];
+    }
+    black = otherBoard.black;
+    white = otherBoard.white;
+    side = otherBoard.side;
+}
 void Chessboard::updateNum(){                       //Update the number of black and white chess according to the chessboard
     black=0;white=0;
     for(int a=0;a<6;a++){
@@ -57,6 +66,7 @@ void Chessboard::print() {                          //print the chessboard
                 printf("%d ",board[a][b]);
         printf("\n");
     }
+    cout<<"black="<<black<<"  white="<<white<<endl;
 }
 
 int Chessboard::judge(){                            //determind whether there is a side to win, 1 means oppsite win, 2 means myself win, 0 means there is no side winning
@@ -69,10 +79,10 @@ int Chessboard::judge(){                            //determind whether there is
             return 0;
 }
     else{
-        if (black == 0)
-            return 2;
-        else if (white == 0)
+        if (white == 0)
             return 1;
+        else if (black == 0)
+            return 2;
         else
             return 0;
     }
@@ -80,6 +90,8 @@ int Chessboard::judge(){                            //determind whether there is
 
 int Chessboard::makeMove(singleMove x,int minimaxPlayer){   //make the move with minimaxPlayer on the chessboard
     int origin = board[x.to.x][x.to.y];
+    if(board[x.from.x][x.from.y] == board[x.to.x][x.to.y])
+        cout<<"what!!!"<<endl;
     board[x.from.x][x.from.y] = 0;
     board[x.to.x][x.to.y] = minimaxPlayer;
     if(origin==BLACK_CHESS)
@@ -130,4 +142,18 @@ bool Chessboard::restore(){
     }
     restoreFile >> side;
     return true;
+}
+
+void Chessboard::check(){
+    int wN=0,bN=0;
+    for(int a=0;a<6;a++){
+        for(int b=0;b<6;b++){
+            if(board[a][b]==BLACK_CHESS)
+                bN++;
+            else if(board[a][b]==WHITE_CHESS)
+                wN++;
+        }
+    }
+    if(wN != white || bN != black)
+        cout<<"NONONONO";
 }
