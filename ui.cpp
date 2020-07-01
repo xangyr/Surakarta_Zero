@@ -64,6 +64,15 @@ void UI::startGame(){
     choice Choice;
     Choice=chooseSide();
     int who=Choice.choice_1;
+    int board[6][6] = {
+        {0,0,0,0,0,-1},
+        {1,0,-1,0,0,0},
+        {0,0,0,0,0,0},
+        {0,0,0,1,0,0},
+        {1,1,0,0,0,1},
+        {1,1,1,0,0,1}
+    };
+
     Chessboard gameBoard(who);
     int who_turn=who;
     do{
@@ -259,6 +268,7 @@ int UI::Play_H(Chessboard &gameboard,int x,int y){//用于人类回合下子
                 eachRound r{a,b,origin,x,y,target};
                 round.push(r);
                 a=-1;b=-1;
+                gameboard.updateNum();
                 return 1;
             }
         }

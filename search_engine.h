@@ -28,9 +28,11 @@ public:
 private:
     Chessboard gameBoard;
     Chessboard oriBoard;
-    void expand(MCTSNode *currentNode,int currentPlayer);
+    MCTSNode root;
+    bool expand(MCTSNode *currentNode,int currentPlayer);
     int rollout(MCTSNode *currentNode,int currentPlayer);
     void Backpropagation(MCTSNode *currentNode,int rolloutValue);
+    void destory(MCTSNode *node);
 };
 
 #endif

@@ -6,6 +6,7 @@
 #define SURAKARTA_ZERO_ARRAYLIST_H
 using namespace std;
 #include <iostream>
+#include <cstdlib>
 #include "basic.h"
 
 class ArrayList{

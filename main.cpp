@@ -8,7 +8,7 @@ int main() {
     test exam;
     exam.run_test(AB,1000);*/
      
-    
+    cout<<log10(10)<<endl;
     UI interface;
     interface.startGame();
     /*

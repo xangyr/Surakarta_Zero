@@ -22,6 +22,7 @@ public:
     Chessboard();
     Chessboard(int who);
     Chessboard(int who,int board[6][6]);
+    void operator=(const Chessboard &otherBoard );
     void print();
     int judge();
     void Move_Generate(ArrayList &move_array, int who);
@@ -33,6 +34,8 @@ public:
     bool isLegal(int from_x,int from_y,int to_x,int to_y);
     void AI(stack <eachRound>&round,int depth);
     void store();
+    void check();
+    void updateNum();
 private:
     void Attack_Orbit(ArrayList &move_array,Rool rool[][6],int *flag_index,int who);
     void Generate_Move_Attack(ArrayList &move_array,int who);
@@ -51,7 +54,7 @@ private:
     int anotherMark();
     int Evaluate_test(int who_test);
     bool restore();
-    void updateNum();
+
 };
 
 #endif //SURAKARTA_ZERO_CHESSBOARD_H
