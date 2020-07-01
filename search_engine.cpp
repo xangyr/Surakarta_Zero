@@ -98,7 +98,7 @@ singleMove MCTS::search(int currentPlayer){
     singleMove move;
     gameBoard = oriBoard;
     expand(&root,currentPlayer);
-    for(int i = 0; i<1600; i++){
+    for(int i = 0; i<6400; i++){
         //depth = 0;
         currentNode = &root;
         gameBoard = oriBoard;
@@ -138,6 +138,7 @@ singleMove MCTS::search(int currentPlayer){
     for(int i = 0; i < root.subNum; i++)
     {
         //currentUCT = root.subMCTS[i].value/root.subMCTS[i].travelNum + sqrt(2 * log(root.travelNum)/root.subMCTS[i].travelNum);
+        cout<<root.subMCTS[i].value/root.subMCTS[i].travelNum<<" "; 
         if(root.subMCTS[i].value/root.subMCTS[i].travelNum > maxUCT){
             maxUCT = root.subMCTS[i].value/root.subMCTS[i].travelNum;
             maxIndex = i;
@@ -148,6 +149,7 @@ singleMove MCTS::search(int currentPlayer){
         } */
     }
     root.moveList.pull(move, maxIndex);
+    cout<<"maxIndex = "<<maxIndex<<endl;
     return move; // need to return single for current root of mcts
 }
 
