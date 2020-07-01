@@ -90,6 +90,10 @@ MCTS::MCTS(Chessboard gameBoard){
     this->oriBoard.print();
 }
 
+MCTS::~MCTS(){
+    
+}
+
 singleMove MCTS::search(int currentPlayer){
     int maxIndex;
     double currentUCT,maxUCT;
@@ -98,7 +102,7 @@ singleMove MCTS::search(int currentPlayer){
     singleMove move;
     gameBoard = oriBoard;
     expand(&root,currentPlayer);
-    for(int i = 0; i<6400; i++){
+    for(int i = 0; i<1600; i++){
         //depth = 0;
         currentNode = &root;
         gameBoard = oriBoard;
@@ -110,7 +114,7 @@ singleMove MCTS::search(int currentPlayer){
                     maxIndex = j;
                     break;
                 }
-                currentUCT = currentNode->subMCTS[j].value/currentNode->subMCTS[j].travelNum + sqrt(2 * log(currentNode->travelNum)/currentNode->subMCTS[j].travelNum);
+                currentUCT = currentNode->subMCTS[j].value/currentNode->subMCTS[j].travelNum + 1.9 * sqrt(log(currentNode->travelNum)/currentNode->subMCTS[j].travelNum);
                 if(currentUCT > maxUCT) {
                     maxUCT = currentUCT;
                     maxIndex = j;
@@ -135,14 +139,20 @@ singleMove MCTS::search(int currentPlayer){
     }
     maxUCT = DBL_MIN;
     maxIndex = 0;
+    cout<<root.subNum<<endl;
     for(int i = 0; i < root.subNum; i++)
     {
         //currentUCT = root.subMCTS[i].value/root.subMCTS[i].travelNum + sqrt(2 * log(root.travelNum)/root.subMCTS[i].travelNum);
-        cout<<root.subMCTS[i].value/root.subMCTS[i].travelNum<<" "; 
+        cout<<root.subMCTS[i].value/root.subMCTS[i].travelNum<<" ";
+        //cout<<root.subMCTS[i].travelNum<<" ";
         if(root.subMCTS[i].value/root.subMCTS[i].travelNum > maxUCT){
             maxUCT = root.subMCTS[i].value/root.subMCTS[i].travelNum;
             maxIndex = i;
         }
+        /*if(root.subMCTS[i].travelNum>maxUCT) {
+            maxUCT = root.subMCTS[i].travelNum;
+            maxIndex = i;
+        }*/
         /*if(currentUCT > maxUCT) {
             maxUCT = currentUCT;
             maxIndex = i;
@@ -179,29 +189,49 @@ int MCTS::rollout(MCTSNode *currentNode,int currentPlayer){
     if opposite win -> currentplayer lost,  return reward 0
     if draw,                                 return reward 0
     */
+    //cout<<"crash here rollout"<<endl;
     while (true) {
-        if (gameBoard.judge() == 1)
-            return 0;
-        else if (gameBoard.judge() == 2)
-            return 1;
-        else if (gameBoard.judge() == 0)
-            return 0;
 
+        if (gameBoard.judge() == 1){
+            //cout<<"oppo win"<<endl;
+            return 0;
+        }
+        if (gameBoard.judge() == 2){
+            //cout<<"me win"<<endl;
+            return 1;
+        }
+        //cout<<"crash here temp"<<endl;
         ArrayList temp;
+        //cout<<"crash here mg"<<endl;
         gameBoard.Move_Generate(temp,currentPlayer);
+        //cout<<"crash here move"<<endl;
         singleMove move;
+        //cout<<"crash here pull"<<endl;
+        //cout<<temp.size()<<endl;
+        if (temp.size() == 0) {
+            return 0;
+        }
         temp.pull(move,rand()%temp.size());
+        //cout<<"crash here mm"<<endl;
         gameBoard.makeMove(move,currentPlayer);
+        //cout<<"crash here sw pl"<<endl;
         currentPlayer = -currentPlayer;
         //depth++;
+        
     }
     //return gameBoard.Evaluate(currentPlayer);
 }
 
 void MCTS::Backpropagation(MCTSNode *currentNode,int rolloutValue){
+    //cout<<"updating parent nodes"<<endl;
     while(currentNode != NULL){
-    currentNode->value += rolloutValue;
-    currentNode->travelNum++;
-    currentNode = currentNode->parent;
+        currentNode->value += rolloutValue;
+        currentNode->travelNum++;
+        //cout<<"value: "<<currentNode->value<<" num: "<<currentNode->travelNum<<endl;
+        currentNode = currentNode->parent;
     }
+}
+
+void MCTS::destory(MCTSNode *root) {
+    
 }

@@ -11,6 +11,10 @@ ArrayList::ArrayList() {
     array = (singleMove *)malloc(100*sizeof(singleMove));
 }
 
+ArrayList::~ArrayList() {
+    free(array);
+}
+
 void ArrayList::clear() {
     length=0;
     start=0;
