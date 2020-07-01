@@ -98,7 +98,7 @@ singleMove MCTS::search(int currentPlayer){
     singleMove move;
     gameBoard = oriBoard;
     expand(&root,currentPlayer);
-    for(int i = 0; i<1000; i++){
+    for(int i = 0; i<1600; i++){
         //depth = 0;
         currentNode = &root;
         gameBoard = oriBoard;
