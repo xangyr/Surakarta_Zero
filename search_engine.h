@@ -24,6 +24,7 @@ class MCTS{
 public:
     MCTS(Chessboard gameBoard);
     singleMove search(int currentPlayer);
+    ~MCTS();
 private:
     Chessboard gameBoard;
     Chessboard oriBoard;

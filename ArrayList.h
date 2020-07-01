@@ -11,6 +11,7 @@ using namespace std;
 class ArrayList{
 public:
     ArrayList();
+    ~ArrayList();
     void clear();
     int size();
     bool unempty();
