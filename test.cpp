@@ -21,7 +21,7 @@ void test::run_test(int command,int times){
 }
 
 void test::testMoveGenerator(){
-    FILE *fp = fopen("../resource/Data/testMoveGenerate.txt","r");
+    FILE *fp = fopen("resource/Data/testMoveGenerate.txt","r");
     int count=0,ta;
 
     int index_1,index_2,index_3,index_4;
@@ -78,9 +78,9 @@ void test::testMoveGenerator(){
 
 void test::testAlphaBeta(){
     double sum=0;
-    FILE *fp = fopen("../resource/Data/testAlphaBeta.txt","r");
+    FILE *fp = fopen("resource/Data/testAlphaBeta.txt","r");
     int count=0;
-    xp = fopen("../resource/Data/test.dot","w");
+    xp = fopen("resource/Data/test.dot","w");
     for(int a=0;a<100;a++){
         int flag;
         for(int b=0;b<6;b++){
