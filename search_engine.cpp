@@ -66,7 +66,9 @@ singleMove Chessboard::alphaBetaMove(int depth, int alpha, int beta, int minimax
 }
 
 void Chessboard::AI(stack <eachRound>&round,int depth){
-    singleMove bestMove=alphaBetaMove(depth,-INT_MAX,INT_MAX,side);
+    //singleMove bestMove=alphaBetaMove(depth,-INT_MAX,INT_MAX,side);
+    MCTS mcts(*this);
+    singleMove bestMove=mcts.search(side);
     eachRound r{bestMove.from.x,bestMove.from.y,board[bestMove.from.x][bestMove.from.y],bestMove.to.x,bestMove.to.y,board[bestMove.to.x][bestMove.to.y]};
     round.push(r);
     makeMove(bestMove,side);
@@ -88,8 +90,8 @@ MCTS::MCTS(Chessboard gameBoard){
     this->oriBoard.print();
 }
 
-int MCTS::search(int currentPlayer){
-    int depth,maxIndex;
+singleMove MCTS::search(int currentPlayer){
+    int maxIndex;
     double currentUCT,maxUCT;
     MCTSNode root;
     MCTSNode *currentNode;
@@ -97,7 +99,7 @@ int MCTS::search(int currentPlayer){
     gameBoard = oriBoard;
     expand(&root,currentPlayer);
     for(int i = 0; i<1000; i++){
-        depth = 0;
+        //depth = 0;
         currentNode = &root;
         gameBoard = oriBoard;
         while(currentNode->subMCTS != NULL){
@@ -108,20 +110,20 @@ int MCTS::search(int currentPlayer){
                     maxIndex = j;
                     break;
                 }
-                currentUCT = currentNode->subMCTS[j].value/currentNode->subMCTS[j].travelNum + sqrt(log(currentNode->travelNum)/currentNode->subMCTS[j].travelNum);
-                if(currentUCT > maxUCT){
+                currentUCT = currentNode->subMCTS[j].value/currentNode->subMCTS[j].travelNum + sqrt(2 * log(currentNode->travelNum)/currentNode->subMCTS[j].travelNum);
+                if(currentUCT > maxUCT) {
                     maxUCT = currentUCT;
                     maxIndex = j;
                 }
-            }   
+            }
             currentNode->moveList.pull(move,maxIndex);
             gameBoard.makeMove(move,currentPlayer);
             currentPlayer = -currentPlayer;
             currentNode = &currentNode->subMCTS[maxIndex];
-            depth++;
+            //depth++;
         }
 
-        if(currentNode ->travelNum != 0){
+        if(currentNode ->travelNum != 0) {
             expand(currentNode,currentPlayer);
             currentNode->moveList.pull(move,0);
             gameBoard.makeMove(move,currentPlayer);
@@ -129,18 +131,24 @@ int MCTS::search(int currentPlayer){
             currentNode = &currentNode->subMCTS[0];
         }
         
-        Backpropagation(currentNode,rollout(currentNode,currentPlayer,depth));
+        Backpropagation(currentNode,rollout(currentNode,currentPlayer));
     }
     maxUCT = DBL_MIN;
+    maxIndex = 0;
     for(int i = 0; i < root.subNum; i++)
     {
+        //currentUCT = root.subMCTS[i].value/root.subMCTS[i].travelNum + sqrt(2 * log(root.travelNum)/root.subMCTS[i].travelNum);
         if(root.subMCTS[i].value/root.subMCTS[i].travelNum > maxUCT){
             maxUCT = root.subMCTS[i].value/root.subMCTS[i].travelNum;
             maxIndex = i;
-        }    
+        }
+        /*if(currentUCT > maxUCT) {
+            maxUCT = currentUCT;
+            maxIndex = i;
+        } */
     }
-
-    return maxIndex;
+    root.moveList.pull(move, maxIndex);
+    return move; // need to return single for current root of mcts
 }
 
 void MCTS::expand(MCTSNode *currentNode,int currentPlayer){
@@ -152,8 +160,9 @@ void MCTS::expand(MCTSNode *currentNode,int currentPlayer){
     }
 }
 
-int MCTS::rollout(MCTSNode *currentNode,int currentPlayer,int depth){
-    while(depth<=7){
+
+int MCTS::rollout(MCTSNode *currentNode,int currentPlayer){
+    /*while(depth<=7){
         ArrayList temp;
         gameBoard.Move_Generate(temp,currentPlayer);
         singleMove move;
@@ -161,8 +170,30 @@ int MCTS::rollout(MCTSNode *currentNode,int currentPlayer,int depth){
         gameBoard.makeMove(move,currentPlayer);
         currentPlayer = -currentPlayer;
         depth++;
+    }*/
+    /*
+    check simulate in while true
+    if currentplayer win,                   return reward 1
+    if opposite win -> currentplayer lost,  return reward 0
+    if draw,                                 return reward 0
+    */
+    while (true) {
+        if (gameBoard.judge() == 1)
+            return 0;
+        else if (gameBoard.judge() == 2)
+            return 1;
+        else if (gameBoard.judge() == 0)
+            return 0;
+
+        ArrayList temp;
+        gameBoard.Move_Generate(temp,currentPlayer);
+        singleMove move;
+        temp.pull(move,rand()%temp.size());
+        gameBoard.makeMove(move,currentPlayer);
+        currentPlayer = -currentPlayer;
+        //depth++;
     }
-    return gameBoard.Evaluate(currentPlayer);
+    //return gameBoard.Evaluate(currentPlayer);
 }
 
 void MCTS::Backpropagation(MCTSNode *currentNode,int rolloutValue){

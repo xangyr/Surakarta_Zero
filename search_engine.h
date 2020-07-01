@@ -23,12 +23,12 @@ public:
 class MCTS{
 public:
     MCTS(Chessboard gameBoard);
-    int search(int currentPlayer);
+    singleMove search(int currentPlayer);
 private:
     Chessboard gameBoard;
     Chessboard oriBoard;
     void expand(MCTSNode *currentNode,int currentPlayer);
-    int rollout(MCTSNode *currentNode,int currentPlayer,int depth);
+    int rollout(MCTSNode *currentNode,int currentPlayer);
     void Backpropagation(MCTSNode *currentNode,int rolloutValue);
 };
 
