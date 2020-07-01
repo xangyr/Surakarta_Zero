@@ -15,6 +15,7 @@ public:
     ~ArrayList();
     void clear();
     int size();
+    int att();
     bool unempty();
     void push(int from_x,int from_y,int to_x,int to_y);
     void push_unrepeat(int from_x,int from_y,int to_x,int to_y);
@@ -26,5 +27,6 @@ private:
     singleMove *array;
     int length;
     int start;
+    int attack_num;
 };
 #endif //SURAKARTA_ZERO_ARRAYLIST_H

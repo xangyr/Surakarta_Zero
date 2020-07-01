@@ -6,6 +6,7 @@
 #include <iostream>
 #include <climits>
 #include <cmath>
+#include <time.h>
 
 #define tiny 1e-6
 
@@ -31,6 +32,7 @@ private:
     MCTSNode root;
     bool expand(MCTSNode *currentNode,int currentPlayer);
     int rollout(MCTSNode *currentNode,int currentPlayer);
+    //int ran();
     void Backpropagation(MCTSNode *currentNode,int rolloutValue);
     void destory(MCTSNode *node);
 };
