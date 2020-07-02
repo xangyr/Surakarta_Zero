@@ -74,10 +74,11 @@ void ArrayList::print(){
 
 void ArrayList::print(double *win_array, char *out) {
     int j = 0;
+    /*
     for(int i = start; i<length; i++) {
         out += array[i].from.x + " " + array[i].from.y + " " + array[i].to.x + " " + array[i].to.y + win_array[j] + "\n";
         j++;
-    }
+    }*/
 }
 
 bool ArrayList::find(int from_x,int from_y,int to_x,int to_y){
