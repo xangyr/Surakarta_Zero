@@ -71,7 +71,7 @@ char Chessboard::get(int i, int j) {
 }
 
 int Chessboard::judge(){                            //determind whether there is a side to win, 1 means oppsite win, 2 means myself win, 0 means there is no side winning
-    if(side==BLACK_CHESS) {
+    if(side == BLACK_CHESS) {
         if (black == 0)
             return 1;
         else if (white == 0)

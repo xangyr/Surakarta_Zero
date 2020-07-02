@@ -111,26 +111,20 @@ singleMove MCTS::search(int side){
         gameBoard = oriBoard;
         currentPlayer = side;
         while(currentNode->subNum != 0){
-            UCT = currentNode->subMCTS[0].value/currentNode->subMCTS[0].travelNum + 1.4 * sqrt(2*log(currentNode->travelNum)/currentNode->subMCTS[0].travelNum);
+            UCT = currentNode->subMCTS[0].value/currentNode->subMCTS[0].travelNum +  sqrt(2*log(currentNode->travelNum)/currentNode->subMCTS[0].travelNum);
             maxIndex = 0;
             for(int j = 0; j < currentNode->subNum; j++){
-                if(currentNode->subMCTS[j].travelNum == 0){
+                (currentNode->subMCTS[j].travelNum == 0){
                     maxIndex = j;
                     break;
                 }
-                currentUCT = currentNode->subMCTS[j].value/currentNode->subMCTS[j].travelNum + 1.4 * sqrt(2*log(currentNode->travelNum)/currentNode->subMCTS[j].travelNum);
+                currentUCT = currentNode->subMCTS[j].value/currentNode->subMCTS[j].travelNum + sqrt(2*log(currentNode->travelNum)/currentNode->subMCTS[j].travelNum);
                 if (currentPlayer == side){
                     if(currentUCT > UCT) {
                         UCT = currentUCT;
                         maxIndex = j;
                     }
                 }
-                /*else if(currentPlayer == -side) {
-                    if (currentUCT < UCT) {
-                        UCT = currentUCT;
-                        maxIndex = j;
-                    }
-                }*/
                 
             }
             currentNode->moveList.pull(move,maxIndex);
@@ -157,7 +151,7 @@ singleMove MCTS::search(int side){
             maxIndex = 0;
             for(int j = 0; j < currentNode->subNum; j++){
                 if (j<root.moveList.att()) {
-                    currentUCT = 1.1 * currentNode->subMCTS[j].value/currentNode->subMCTS[j].travelNum;
+                    currentUCT = 1.4 * currentNode->subMCTS[j].value/currentNode->subMCTS[j].travelNum;
                 }
                 else {
                     currentUCT = currentNode->subMCTS[j].value/currentNode->subMCTS[j].travelNum;
@@ -191,7 +185,6 @@ bool MCTS::expand(MCTSNode *currentNode,int currentPlayer){
         return false;
 }
 
-
 int MCTS::rollout(MCTSNode *currentNode,int currentPlayer){
     /*
     check simulate in while true
@@ -199,8 +192,8 @@ int MCTS::rollout(MCTSNode *currentNode,int currentPlayer){
     if opposite win -> currentplayer lost,  return reward 0
     if draw,                                 return reward 0
     */
-    //srand(time(0));
     while (true) {
+        
         if (gameBoard.judge() == 1)
             return 0;
         if (gameBoard.judge() == 2)
@@ -209,22 +202,18 @@ int MCTS::rollout(MCTSNode *currentNode,int currentPlayer){
         gameBoard.Move_Generate(temp,currentPlayer);
         singleMove move;
         if(!temp.size()){
-            if(gameBoard.side == BLACK_CHESS && gameBoard.black > gameBoard.white)
-                return 1;
-            else if(gameBoard.side == WHITE_CHESS && gameBoard.white > gameBoard.black)
+            if( gameBoard.side != currentPlayer)
                 return 1;
             return 0;
         }
-        temp.pull(move,rand()%temp.size());
+        if(temp.att() > 0)
+            temp.pull(move, rand()%(temp.att()));
+        else
+            temp.pull(move, rand()%temp.size());
         gameBoard.makeMove(move,currentPlayer);
         currentPlayer = -currentPlayer;   
     }
 }
-
-/*int MCTS::ran(){
-    
-    return rand()%2+0;
-}*/
 
 void MCTS::Backpropagation(MCTSNode *currentNode,int rolloutValue){
     while(currentNode != NULL){
