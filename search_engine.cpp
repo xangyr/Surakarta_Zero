@@ -114,7 +114,7 @@ singleMove MCTS::search(int side){
             UCT = currentNode->subMCTS[0].value/currentNode->subMCTS[0].travelNum +  sqrt(2*log(currentNode->travelNum)/currentNode->subMCTS[0].travelNum);
             maxIndex = 0;
             for(int j = 0; j < currentNode->subNum; j++){
-                if(currentNode->subMCTS[j].travelNum == 0){
+                (currentNode->subMCTS[j].travelNum == 0){
                     maxIndex = j;
                     break;
                 }
