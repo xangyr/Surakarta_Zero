@@ -104,12 +104,13 @@ singleMove MCTS::search(int side){
     expand(&root,currentPlayer);
     gameBoard.updateNum();
     gameBoard.check();
-    for(int i = 0; i<128000; i++){
+    for(int i = 0; i < 6400; i++){
         expandFlag = true;
         currentNode = &root;
         gameBoard = oriBoard;
         currentPlayer = side;
         while(currentNode->subNum != 0){
+
             maxUCT = currentNode->subMCTS[0].value/currentNode->subMCTS[0].travelNum + sqrt(2 * log(currentNode->travelNum)/currentNode->subMCTS[0].travelNum);
             maxIndex = 0;
             for(int j = 0; j < currentNode->subNum; j++){
@@ -184,18 +185,20 @@ int MCTS::rollout(MCTSNode *currentNode,int currentPlayer){
         if (gameBoard.judge() == 1)
             return 0;
         if (gameBoard.judge() == 2)
-            return 1;;
+            return 1;
         ArrayList temp;
         gameBoard.Move_Generate(temp,currentPlayer);
         singleMove move;
         if(!temp.size()){
-            if(gameBoard.side == BLACK_CHESS && gameBoard.black > gameBoard.white)
-                return 1;
-            else if(gameBoard.side == WHITE_CHESS && gameBoard.white > gameBoard.black)
+            if( gameBoard.side != currentPlayer)
                 return 1;
             return 0;
         }
-        temp.pull(move,rand()%temp.size());
+        if(rand()%10 > 5)
+            temp.pull(move, rand()%(temp.size()/3+1));
+        else
+            temp.pull(move, rand()%temp.size());
+        
         gameBoard.makeMove(move,currentPlayer);
         currentPlayer = -currentPlayer;   
     }
