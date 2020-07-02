@@ -60,13 +60,14 @@ void Chessboard::updateNum(){                       //Update the number of black
 void Chessboard::print() {                          //print the chessboard
     for(int  a=0;a<6;a++){
         for(int b=0;b<6;b++)
-            if(board[a][b]==BLACK_CHESS)
-                printf("2 ");
-            else
-                printf("%d ",board[a][b]);
+            printf("%d ",board[a][b]);
         printf("\n");
     }
     cout<<"black="<<black<<"  white="<<white<<endl;
+}
+
+char Chessboard::get(int i, int j) {
+    return ("%d ", board[i][j]);
 }
 
 int Chessboard::judge(){                            //determind whether there is a side to win, 1 means oppsite win, 2 means myself win, 0 means there is no side winning
@@ -120,7 +121,7 @@ bool Chessboard::isLegal(int from_x,int from_y,int to_x,int to_y){      //judge 
 }
 
 void Chessboard::store(){
-    ofstream storeFile("../resource/store.txt",ios::out);               //store the chessboard to the FILE
+    ofstream storeFile("resource/store.txt",ios::out);               //store the chessboard to the FILE
     for(int a=0;a<6;a++){
         for(int b=0;b<6;b++){
             storeFile<<board[a][b]<<" ";
@@ -132,7 +133,7 @@ void Chessboard::store(){
 }
 
 bool Chessboard::restore(){
-    ifstream restoreFile("../resource/store.txt",ios::in);             //restore the chessboard according to FILE
+    ifstream restoreFile("resource/store.txt",ios::in);             //restore the chessboard according to FILE
     for(int a=0;a<6;a++){
         for(int b=0;b<6;b++) {
             restoreFile >> board[a][b];

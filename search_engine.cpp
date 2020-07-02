@@ -169,6 +169,7 @@ singleMove MCTS::search(int side){
                     maxIndex = j;
                 }
             }
+    root.moveList.print();
     root.moveList.pull(move, maxIndex);
     cout<<"maxIndex = "<<maxIndex<<endl;
     //" from "<<move.from.x<<" "<<move.from.y<<" to "<<move.to.x<<" "<<move.to.y<<endl;
