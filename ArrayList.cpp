@@ -8,6 +8,7 @@
 ArrayList::ArrayList() {
     start=0;
     length=0;
+    attack_num = 0;
     array = (singleMove *)malloc(100*sizeof(singleMove));
 }
 
@@ -18,6 +19,7 @@ ArrayList::~ArrayList() {
 void ArrayList::clear() {
     length=0;
     start=0;
+    attack_num = 0;
 }
 
 bool ArrayList::unempty(){
@@ -30,6 +32,11 @@ bool ArrayList::unempty(){
 int ArrayList::size() {
     return length-start;
 }
+
+int ArrayList::att() {
+    return attack_num;
+}
+
 void ArrayList::push(int from_x,int from_y,int to_x,int to_y){
     array[length].from.x = from_x;
     array[length].from.y = from_y;
@@ -48,6 +55,7 @@ void ArrayList::push_unrepeat(int from_x,int from_y,int to_x,int to_y){
     array[length].to.x = to_x;
     array[length].to.y = to_y;
     length++;
+    attack_num++;
 };
 
 void ArrayList::pop(singleMove &x) {
