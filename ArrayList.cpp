@@ -72,6 +72,14 @@ void ArrayList::print(){
     }
 }
 
+void ArrayList::print(double *win_array, char *out) {
+    int j = 0;
+    for(int i = start; i<length; i++) {
+        out += array[i].from.x + " " + array[i].from.y + " " + array[i].to.x + " " + array[i].to.y + win_array[j] + "\n";
+        j++;
+    }
+}
+
 bool ArrayList::find(int from_x,int from_y,int to_x,int to_y){
     for(int a=start;a<length;a++){
         if(array[a].from.x == from_x && array[a].from.y == from_y && array[a].to.x == to_x && array[a].to.y == to_y)

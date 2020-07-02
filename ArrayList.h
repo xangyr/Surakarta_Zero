@@ -22,6 +22,7 @@ public:
     void pop(singleMove &x);
     void pull(singleMove &x,int index);
     void print();
+    void print(double *win_array, char *out_);
     bool find(int from_x,int from_y,int to_x,int to_y);
 private:
     singleMove *array;
