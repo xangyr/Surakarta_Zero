@@ -10,6 +10,7 @@
 #include <SDL2/SDL_image.h>
 #include <SDL2/SDL_ttf.h>
 #include "chessboard.h"
+#include "Boardstack.h"
 
 class UI{
 public:

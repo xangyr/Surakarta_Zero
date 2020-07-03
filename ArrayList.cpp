@@ -72,6 +72,13 @@ void ArrayList::print(){
     }
 }
 
+void ArrayList::fwrite(ofstream *file){
+    for(int i = 0; i<length; i++){
+        *file<<array[i].from.x<<" "<<array[i].from.y<<" "<<array[i].to.x<<" "<<array[i].to.y<<" ";
+    }
+    *file<<endl;
+}
+
 void ArrayList::print(double *win_array, char *out) {
     int j = 0;
     /*

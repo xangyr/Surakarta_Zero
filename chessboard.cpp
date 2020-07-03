@@ -66,6 +66,14 @@ void Chessboard::print() {                          //print the chessboard
     cout<<"black="<<black<<"  white="<<white<<endl;
 }
 
+void Chessboard::fwrite(ofstream *file) {
+     for(int  a=0;a<6;a++){
+        for(int b=0;b<6;b++)
+            *file<<board[a][b]<<" ";
+        *file<<endl;
+    }
+    *file<<endl;
+}
 char Chessboard::get(int i, int j) {
     return ("%d ", board[i][j]);
 }

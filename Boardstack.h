@@ -12,8 +12,10 @@ class Boardstack{
 public:
     Boardstack();
     void push(Chessboard gameBoard);
-    void print();
+    void fwrite(bool indexFlag);
+    void writeSide(int side);
 private:
+    int side;
     bool first;
     stackNode *head;
     stackNode *tail;

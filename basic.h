@@ -15,6 +15,7 @@
 #define HUMAN_FIRST 1
 #define COMPUTER_FIRST 2
 #include <iostream>
+#include <fstream>
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
 #include <SDL2/SDL_ttf.h>
