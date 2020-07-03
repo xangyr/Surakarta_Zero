@@ -11,6 +11,8 @@
 
 #define tiny 1e-6
 
+void generateData();
+
 class MCTSNode{
 public:
     double value;
@@ -30,8 +32,6 @@ public:
 private:
     Chessboard gameBoard;
     Chessboard oriBoard;
-    static Boardstack blackStack;
-    static Boardstack whiteStack;
     MCTSNode root;
     bool expand(MCTSNode *currentNode,int currentPlayer);
     int rollout(MCTSNode *currentNode,int currentPlayer);

@@ -110,7 +110,7 @@ int Chessboard::makeMove(singleMove x,int minimaxPlayer){   //make the move with
     return origin;
 }
 
-int Chessboard::unMakeMove(singleMove x,int minimaxPlayer,int origin){  //restore the chessboard with move, the moving chess and the original chess color of the place begin placed 
+void Chessboard::unMakeMove(singleMove x,int minimaxPlayer,int origin){  //restore the chessboard with move, the moving chess and the original chess color of the place begin placed 
     board[x.to.x][x.to.y] = origin;
     board[x.from.x][x.from.y] = minimaxPlayer;
     if(origin==BLACK_CHESS)

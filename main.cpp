@@ -11,8 +11,7 @@ int main() {
     exam.run_test(AB,1000);*/
      
    // cout<<log10(10)<<endl;
-    UI interface;
-    interface.startGame();
+    generateData();
     /*
    Chessboard gameBoard(BLACK_CHESS);
    MCTS MCTSTest(gameBoard);

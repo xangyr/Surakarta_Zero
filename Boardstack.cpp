@@ -1,38 +1,46 @@
 #include "Boardstack.h"
 
 
-Boardstack::Boardstack(){
+Boardstack::Boardstack(int side){
     first = true;
-}
-
-void Boardstack::writeSide(int side){
     this->side = side;
     Chessboard initBoard(side);
     for(int i=0;i<8;i++)
-        this->push(initBoard);
+        this->push(initBoard, side);
 }
 
-void Boardstack::push(Chessboard gameBoard){
+void Boardstack::push(Chessboard gameBoard, int chessColor){
     if(first){
         head = (stacknode *)malloc(sizeof(stackNode));
-        head->board = gameBoard;
+        for(int i=0;i<6;i++){
+            for(int j=0;j<6;j++){
+                if(gameBoard.board[i][j] == chessColor)
+                    head->board.board[i][j] = gameBoard.board[i][j];
+                else
+                    head->board.board[i][j] = 0;
+            }
+        }
         head->next = NULL;
         first = false;
         tail = head;
         return;
     }
     stackNode *n = (stacknode *)malloc(sizeof(stackNode));
-    n -> board = gameBoard;
+    for(int i=0;i<6;i++){
+            for(int j=0;j<6;j++){
+                if(gameBoard.board[i][j] == chessColor)
+                    n->board.board[i][j] = gameBoard.board[i][j];
+                else
+                    n->board.board[i][j] = 0;
+            }
+        }
     n->next = NULL;
     tail->next = n;
     tail = tail -> next;
-    pop()
 }
 
 void Boardstack::pop(){
-    //对于head的操作
     stackNode *temp = head;
-    Chessboard b = head->board;
     head = head->next;
     free(temp);
 }
@@ -41,6 +49,8 @@ void Boardstack::fwrite(bool indexFlag){
     ofstream file;
     file.open("MCTSData.txt",ios::out | ios::app);
     stackNode *temp = head;
+    if(temp == NULL)
+        cout<<"Error";
     for(int a=0;a<8;a++){
         temp->board.fwrite(&file);
         temp = temp->next;

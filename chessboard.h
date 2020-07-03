@@ -29,7 +29,7 @@ public:
     int judge();
     void Move_Generate(ArrayList &move_array, int who);
     int makeMove(singleMove x,int minimaxPlayer);
-    int unMakeMove(singleMove x,int minimaxPlayer,int origin);
+    void unMakeMove(singleMove x,int minimaxPlayer,int origin);
     int Evaluate(int who_test);
     int alphaBeta(int depth, int alpha, int beta, int minimaxPlayer);
     singleMove alphaBetaMove(int depth, int alpha, int beta, int minimaxPlayer);

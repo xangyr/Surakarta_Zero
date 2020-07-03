@@ -5,6 +5,26 @@
 #include "search_engine.h"
 
 extern FILE *xp;
+Boardstack blackStack(BLACK_CHESS);
+Boardstack whiteStack(WHITE_CHESS);
+
+void generateData(){
+    Chessboard gameBoard(BLACK_CHESS);
+    singleMove bestMove;
+    static int side = BLACK_CHESS;
+    while(!gameBoard.judge()){
+        MCTS mctsa(gameBoard);
+        bestMove = mctsa.search(side);
+        gameBoard.makeMove(bestMove,side);
+        side = -side;
+        if(!gameBoard.judge()){
+        MCTS mctsb(gameBoard);
+        bestMove = mctsb.search(side);
+        gameBoard.makeMove(bestMove,side);
+        side = -side;
+        }
+    }
+}
 
 
 int get_index(){
@@ -102,14 +122,21 @@ singleMove MCTS::search(int side){
     MCTSNode *currentNode;
     singleMove move;
     gameBoard = oriBoard;
-    blackStack.writeSide(BLACK_CHESS);
-    whiteStack.writeSide(WHITE_CHESS);
 
     if(side == BLACK_CHESS)
-        blackStack.push(gameBoard);
+        blackStack.push(gameBoard, BLACK_CHESS);
     else
-        whiteStack.push(gameBoard)
-
+        whiteStack.push(gameBoard, WHITE_CHESS);
+    if(side == BLACK_CHESS){
+        blackStack.pop();
+        whiteStack.fwrite(false);
+        blackStack.fwrite(true);
+    }
+    else{
+        whiteStack.pop();
+        blackStack.fwrite(false);
+        whiteStack.fwrite(true);
+    }
     expand(&root,currentPlayer);
     gameBoard.updateNum();
     gameBoard.check();
