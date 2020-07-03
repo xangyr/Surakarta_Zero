@@ -102,6 +102,14 @@ singleMove MCTS::search(int side){
     MCTSNode *currentNode;
     singleMove move;
     gameBoard = oriBoard;
+    blackStack.writeSide(BLACK_CHESS);
+    whiteStack.writeSide(WHITE_CHESS);
+
+    if(side == BLACK_CHESS)
+        blackStack.push(gameBoard);
+    else
+        whiteStack.push(gameBoard)
+
     expand(&root,currentPlayer);
     gameBoard.updateNum();
     gameBoard.check();
@@ -244,4 +252,5 @@ void MCTS::fwrite(){
         file<<factor * root.subMCTS[i].value/root.subMCTS[i].travelNum<<" ";
     }
     file<<endl;
+    file.close();
 }

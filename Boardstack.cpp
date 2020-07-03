@@ -3,13 +3,13 @@
 
 Boardstack::Boardstack(){
     first = true;
-    Chessboard initBoard(side);
-    for(int i=0;i<8;i++)
-        this->push(initBoard);
 }
 
 void Boardstack::writeSide(int side){
     this->side = side;
+    Chessboard initBoard(side);
+    for(int i=0;i<8;i++)
+        this->push(initBoard);
 }
 
 void Boardstack::push(Chessboard gameBoard){
@@ -26,6 +26,7 @@ void Boardstack::push(Chessboard gameBoard){
     n->next = NULL;
     tail->next = n;
     tail = tail -> next;
+    pop()
 }
 
 void Boardstack::pop(){
@@ -53,5 +54,4 @@ void Boardstack::fwrite(bool indexFlag){
     file<<endl;
     }
     file.close();
-    pop();
 }
