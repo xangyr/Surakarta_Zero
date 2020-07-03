@@ -30,9 +30,11 @@ void Boardstack::push(Chessboard gameBoard){
 
 void Boardstack::pop(){
     //对于head的操作
-    stackNode *d = head;
+    stackNode *temp = head;
+    Chessboard b = head->board;
     head = head->next;
-    free(d);
+    free(temp);
+    return b;
 }
 
 void Boardstack::fwrite(bool indexFlag){
