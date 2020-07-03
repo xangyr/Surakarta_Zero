@@ -34,7 +34,6 @@ void Boardstack::pop(){
     Chessboard b = head->board;
     head = head->next;
     free(temp);
-    return b;
 }
 
 void Boardstack::fwrite(bool indexFlag){
