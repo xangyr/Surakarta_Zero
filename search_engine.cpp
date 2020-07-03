@@ -163,11 +163,10 @@ singleMove MCTS::search(int side){
                     maxIndex = j;
                 }
             }
-    root.moveList.print();
+    fwrite();
     root.moveList.pull(move, maxIndex);
     cout<<"maxIndex = "<<maxIndex<<endl;
-    //" from "<<move.from.x<<" "<<move.from.y<<" to "<<move.to.x<<" "<<move.to.y<<endl;
-    return move; // need to return single for current root of mcts
+    return move;
 }
 
 bool MCTS::expand(MCTSNode *currentNode,int currentPlayer){
@@ -230,4 +229,19 @@ void MCTS::destory(MCTSNode *node) {
                 destory(&(node->subMCTS[i]));
             delete []node->subMCTS;
         }
+}
+
+void MCTS::fwrite(){
+    ofstream file;
+    file.open("MCTSData.txt",ios::out | ios::app);
+    root.moveList.fwrite(&file);
+    double factor;
+    for(int i = 0; i< root.subNum;i++){
+        if(i<root.moveList.att())
+            factor = 1.4;
+        else
+            factor = 1;
+        file<<factor * root.subMCTS[i].value/root.subMCTS[i].travelNum<<" ";
+    }
+    file<<endl;
 }

@@ -9,17 +9,15 @@ int main() {
     /*
     test exam;
     exam.run_test(AB,1000);*/
-     /*
-    cout<<log10(10)<<endl;
+     
+   // cout<<log10(10)<<endl;
     UI interface;
-    interface.startGame();*/
+    interface.startGame();
     /*
    Chessboard gameBoard(BLACK_CHESS);
    MCTS MCTSTest(gameBoard);
    MCTSTest.search(BLACK_CHESS);*/
-   Chessboard gameBoard(BLACK_CHESS);
-   Boardstack s;
-   s.push(gameBoard);
-   s.push(gameBoard);
+   //Boardstack s(BLACK_CHESS);
+   //s.fwrite(true);
     return 0;
 }

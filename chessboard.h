@@ -24,6 +24,7 @@ public:
     Chessboard(int who,int board[6][6]);
     void operator=(const Chessboard &otherBoard );
     void print();
+    void fwrite(ofstream *file);
     char get(int i, int j);
     int judge();
     void Move_Generate(ArrayList &move_array, int who);

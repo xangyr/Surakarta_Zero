@@ -64,16 +64,8 @@ void UI::startGame(){
     choice Choice;
     Choice=chooseSide();
     int who=Choice.choice_1;
-    int board[6][6] = {
-        {0,0,0,0,0,-1},
-        {1,0,-1,0,0,0},
-        {0,0,0,0,0,0},
-        {0,0,0,1,0,0},
-        {1,1,0,0,0,1},
-        {1,1,1,0,0,1}
-    };
-
     Chessboard gameBoard(who);
+
     int who_turn=who;
     do{
         if(Choice.choice_2==HUMAN_FIRST){

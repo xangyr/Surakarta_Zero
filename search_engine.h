@@ -3,6 +3,7 @@
 #include "ArrayList.h"
 #include "chessboard.h"
 #include "search_engine.h"
+#include "Boardstack.h"
 #include <iostream>
 #include <climits>
 #include <cmath>
@@ -29,12 +30,15 @@ public:
 private:
     Chessboard gameBoard;
     Chessboard oriBoard;
+    static Boardstack blackStack;
+    static Boardstack whiteStack;
     MCTSNode root;
     bool expand(MCTSNode *currentNode,int currentPlayer);
     int rollout(MCTSNode *currentNode,int currentPlayer);
     //int ran();
     void Backpropagation(MCTSNode *currentNode,int rolloutValue);
     void destory(MCTSNode *node);
+    void fwrite();
 };
 
 #endif

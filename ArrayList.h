@@ -23,6 +23,7 @@ public:
     void pull(singleMove &x,int index);
     void print();
     void print(double *win_array, char *out_);
+    void fwrite(ofstream *file);
     bool find(int from_x,int from_y,int to_x,int to_y);
 private:
     singleMove *array;
