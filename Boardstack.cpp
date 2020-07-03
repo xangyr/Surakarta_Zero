@@ -15,7 +15,7 @@ void Boardstack::push(Chessboard gameBoard, int chessColor){
         for(int i=0;i<6;i++){
             for(int j=0;j<6;j++){
                 if(gameBoard.board[i][j] == chessColor)
-                    head->board.board[i][j] = gameBoard.board[i][j];
+                    head->board.board[i][j] = 1;
                 else
                     head->board.board[i][j] = 0;
             }
@@ -29,7 +29,7 @@ void Boardstack::push(Chessboard gameBoard, int chessColor){
     for(int i=0;i<6;i++){
             for(int j=0;j<6;j++){
                 if(gameBoard.board[i][j] == chessColor)
-                    n->board.board[i][j] = gameBoard.board[i][j];
+                    n->board.board[i][j] = 1;
                 else
                     n->board.board[i][j] = 0;
             }

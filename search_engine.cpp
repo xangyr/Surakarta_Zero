@@ -108,7 +108,6 @@ MCTSNode::MCTSNode(){
 
 MCTS::MCTS(Chessboard gameBoard){
     this->oriBoard = gameBoard;
-    this->oriBoard.print();
 }
 
 MCTS::~MCTS(){
@@ -192,7 +191,7 @@ singleMove MCTS::search(int side){
                     currentUCT = currentNode->subMCTS[j].value/currentNode->subMCTS[j].travelNum;
                 }
                 
-                cout<<currentNode->subMCTS[j].value<<" "<<currentNode->subMCTS[j].travelNum<<" "<<currentUCT<<endl;
+               //cout<<currentNode->subMCTS[j].value<<" "<<currentNode->subMCTS[j].travelNum<<" "<<currentUCT<<endl;
                 if(currentUCT > UCT) {
                     UCT = currentUCT;
                     maxIndex = j;
@@ -200,7 +199,7 @@ singleMove MCTS::search(int side){
             }
     fwrite();
     root.moveList.pull(move, maxIndex);
-    cout<<"maxIndex = "<<maxIndex<<endl;
+    //cout<<"maxIndex = "<<maxIndex<<endl;
     return move;
 }
 
@@ -278,6 +277,7 @@ void MCTS::fwrite(){
             factor = 1;
         file<<factor * root.subMCTS[i].value/root.subMCTS[i].travelNum<<" ";
     }
+    file<<endl;
     file<<endl;
     file.close();
 }
