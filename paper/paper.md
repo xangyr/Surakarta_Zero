@@ -32,7 +32,7 @@ Reinforcement Learning is an important field of Machine Learning that trains AI 
 
 Monte Carlo Tree Search (MCTS) is a well-known and successful algorithm of searching when implementing on board games, has been proven by AlphaGo Zero. In past years, Teams from Google, who wrote AlphaGo, used AlphaGo to beat world players in Chess Go, even mastered it at the end. Since MCTS is a relatively independent algorithm, we don’t need to change the code for implementing it on different games. When implementing MCTS, searching trees are built recursively in a loop, and we have 4 steps for each searching: select, expand, simulate, backpropagate. 
 
-MCTS  uses an important factor UCT to balance between exploration and exploitation. 
+MCTS  uses an important factor UCT to balance between exploration and exploitation. c here is set to $\sqrt{2}$.
 $$UCT=\frac{w_i}{n_i}+c\frac{\sqrt{\ln N_i}}{n_i}$$
 
 So to implement MCTS on Surakarta, at first we create a root node for the MCTS tree. Then expand the root node with all potential moves from current state as children node. See Figure~\ref{fig:root}.
@@ -85,7 +85,9 @@ The 4 processes will keep looping until hit the preset terminal stage, in this p
 
 \subsection{Multi-threading Monte Carlo Tree Search}
 
-MCTS is easier to be implemented with multi-thread than other traditional tree search algorithms, such as alpha-beta algorithm, because of its own 4 separate processes. Also, programs running on python are relatively slow on its efficiency. With an idea of parallel search, implementing MCTS with multi-threading properly set up can increase the efficiency by at least 30\%.
+MCTS is easier to be implemented with multi-thread than other traditional tree search algorithms, such as alpha-beta algorithm, because of its own 4 separate processes.  Also, programs running on python are relatively slow on its efficiency. With an idea of parallel search, implementing MCTS with multi-threading properly set up can increase the efficiency by at least 30\%. 
+
+An possible approach is to add buffers to the MCTS using pipeline. With the MCTS algorithm introduced in Section 1.1, instead of simulate for one leaf node, simulate for all leaf node of the selected node which has the max UCT. 
 
 \section{Implementation}
 
@@ -166,6 +168,16 @@ Department of Computing Science, University of Alberta, 2009.
 S. Gelly.
 \textit{A Contribution to Reinforcement Learning; Application to Computer-Go}
 PhD thesis, Universite Paris-Sud, 2007.
+
+\bibitem{pa_mcts}
+S. Ali Mirsoleimani, Aske Plaat, Jaap van den Herik and Jos Vermaseren.
+\textit{Structured Parallel Programming for Monte CarloTree Search}
+Leiden Centre of Data Science, Leiden University, 2017.
+
+\bibitem{lf_mcts}
+S. Ali Mirsoleimani,Jaap van den Herik, Aske Plaat and Jos Vermaseren.
+\textit{A Lock-free Algorithm for Parallel MCTS}
+Leiden Centre of Data Science, Leiden University, 2018.
 
 \end{thebibliography}
 
